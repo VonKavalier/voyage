@@ -1,0 +1,194 @@
+{
+  "nom": "Fantasy",
+  "departs": [
+    "le hameau de Brumaire",
+    "la Porte des Saules",
+    "le gué de Sorrelune"
+  ],
+  "destinations": [
+    "la Tour des Vents d'Ocre",
+    "le Jardin sous la Colline",
+    "le Phare d'Ysmer"
+  ],
+  "arrivee": "Le chemin s'achève enfin. On reste un moment immobile, juste pour le plaisir d'être arrivé.",
+  "chargement": [
+    "Le sentier se précise...",
+    "On marche sans se presser...",
+    "Un vent léger se lève...",
+    "Le paysage défile lentement...",
+    "On s'arrête boire un peu d'eau...",
+    "Les pas trouvent leur rythme..."
+  ],
+  "meteo": [
+    "Le ciel est clair et la lumière douce.",
+    "De hauts nuages avancent sans menace.",
+    "Une fine pluie tombe, presque tiède.",
+    "Un vent léger vient de l'ouest.",
+    "L'air est vif et sent la fin de l'été.",
+    "Le ciel est couvert, d'un gris uniforme et paisible."
+  ],
+  "regions": [
+    {
+      "nom": "Forêt ancienne",
+      "glyphe": "\"",
+      "couleur": "vert",
+      "entree": "Les arbres se resserrent, immenses, et la lumière devient verte.",
+      "lieux": [
+        "Le sentier serpente entre des troncs couverts de mousse.",
+        "Une clairière s'ouvre, silencieuse, tapissée de fougères.",
+        "Un ruisseau traverse le chemin sur un lit de pierres rondes.",
+        "Les racines forment des marches naturelles sur la pente."
+      ],
+      "ambiance": [
+        "Quelque part, un pic frappe un tronc à intervalles réguliers.",
+        "L'air sent la résine et la terre humide.",
+        "La lumière tombe en fines colonnes à travers les branches."
+      ],
+      "rencontres": [
+        "Un vieux bûcheron salue d'un signe de tête, sans interrompre sa marche.",
+        "Un cerf reste immobile et regarde passer le voyageur.",
+        "Une petite lanterne pend à une branche, encore tiède."
+      ],
+      "trouvailles": [
+        "une pomme de pin parfaitement intacte",
+        "une feuille couleur de cuivre",
+        "une plume d'un bleu profond"
+      ]
+    },
+    {
+      "nom": "Marais brumeux",
+      "glyphe": "~",
+      "couleur": "cyan",
+      "entree": "Le sol devient meuble et une brume basse avale les contours.",
+      "lieux": [
+        "Un chemin de planches avance sur l'eau noire.",
+        "Des joncs plient doucement sous un vent invisible.",
+        "Une île de saules apparaît puis disparaît dans la brume.",
+        "Le sentier est marqué par des piquets de bois gris."
+      ],
+      "ambiance": [
+        "Les grenouilles se taisent à mesure qu'on approche.",
+        "Tout semble étouffé, comme sous une couverture.",
+        "Des lucioles pâles flottent au-dessus des roseaux."
+      ],
+      "rencontres": [
+        "Un passeur à la barque plate fait un geste amical depuis la rive.",
+        "Un héron reste planté là, indifférent au monde.",
+        "Une vieille femme vend des herbes séchées sous un auvent de roseaux."
+      ],
+      "trouvailles": [
+        "une plume de héron",
+        "un galet vert veiné de blanc",
+        "une petite fiole de verre bouchée"
+      ]
+    },
+    {
+      "nom": "Falaises ventées",
+      "glyphe": "^",
+      "couleur": "gris_clair",
+      "entree": "Le chemin monte et le vent se lève, salé et franc.",
+      "lieux": [
+        "Le sentier longe le bord de la falaise, loin au-dessus des vagues.",
+        "Un escalier taillé dans la roche mène à un replat herbeux.",
+        "Un pont de pierre enjambe une faille profonde.",
+        "Un muret de pierres sèches court à flanc de pente."
+      ],
+      "ambiance": [
+        "Les mouettes tournent sans effort dans les courants d'air.",
+        "L'horizon est immense et parfaitement net.",
+        "Le bruit des vagues monte par bouffées."
+      ],
+      "rencontres": [
+        "Un berger garde son troupeau, appuyé sur sa houlette.",
+        "Un cerf-volant rouge flotte au bout d'une corde tenue par un enfant.",
+        "Un voyageur assis face à la mer partage un peu de pain."
+      ],
+      "trouvailles": [
+        "un coquillage en spirale",
+        "un morceau de verre poli par la mer",
+        "une pierre percée d'un trou"
+      ]
+    },
+    {
+      "nom": "Landes de bruyère",
+      "glyphe": ",",
+      "couleur": "magenta",
+      "entree": "Les arbres s'espacent puis disparaissent : les landes s'étendent à perte de vue.",
+      "lieux": [
+        "Le chemin traverse des collines couvertes de bruyère pourpre.",
+        "Un menhir solitaire veille sur un carrefour de sentiers.",
+        "Une grange abandonnée se dresse au milieu de nulle part.",
+        "Un chemin de terre sec file droit vers l'horizon."
+      ],
+      "ambiance": [
+        "Le vent couche l'herbe en longues vagues.",
+        "On entend une alouette sans pouvoir la voir.",
+        "Le silence est large, presque palpable."
+      ],
+      "rencontres": [
+        "Un colporteur tire sa charrette et propose une gorgée d'eau fraîche.",
+        "Un renard traverse le chemin, sans aucune hâte.",
+        "Un groupe d'oies sauvages passe très haut dans le ciel."
+      ],
+      "trouvailles": [
+        "un brin de bruyère séchée",
+        "une pointe de flèche en silex",
+        "une vieille pièce usée, sans visage"
+      ]
+    },
+    {
+      "nom": "Vallée des cairns",
+      "glyphe": "n",
+      "couleur": "jaune",
+      "entree": "Des tas de pierres empilées jalonnent le fond de la vallée.",
+      "lieux": [
+        "Des cairns bordent le chemin, chacun posé par un voyageur passé.",
+        "Une rivière claire coule au creux de la vallée.",
+        "Un verger sauvage pousse contre un mur écroulé.",
+        "Un moulin sans roue dort au bord de l'eau."
+      ],
+      "ambiance": [
+        "On ajoute une pierre à un cairn, par politesse.",
+        "L'eau chante sur les galets, sans interruption.",
+        "Le soleil chauffe doucement les pierres."
+      ],
+      "rencontres": [
+        "Une petite fille garde des chèvres et chante pour elle seule.",
+        "Un vieux couple fait la sieste à l'ombre d'un noyer.",
+        "Un ermite arrose un jardin minuscule."
+      ],
+      "trouvailles": [
+        "une pomme encore tiède",
+        "un cairn miniature de trois pierres",
+        "une clé en fer rouillée"
+      ]
+    },
+    {
+      "nom": "Rives du lac",
+      "glyphe": "=",
+      "couleur": "cyan_clair",
+      "entree": "Une grande étendue d'eau calme apparaît entre les arbres.",
+      "lieux": [
+        "Un ponton de bois avance sur une eau lisse comme un miroir.",
+        "Le chemin suit une plage de galets blancs.",
+        "Une barque retournée repose dans les roseaux.",
+        "Un petit bois de bouleaux descend jusqu'à la rive."
+      ],
+      "ambiance": [
+        "Les reflets tremblent à peine.",
+        "Une brise fraîche ride l'eau par endroits.",
+        "Au loin, une cloche sonne trois fois."
+      ],
+      "rencontres": [
+        "Un pêcheur salue sans bouger sa ligne.",
+        "Des cygnes glissent le long de la rive.",
+        "Une famille pique-nique sur une grande pierre plate."
+      ],
+      "trouvailles": [
+        "un galet plat, parfait pour ricocher",
+        "une plume de cygne",
+        "un morceau de bois flotté sculpté par l'eau"
+      ]
+    }
+  ]
+}
