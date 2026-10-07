@@ -1,0 +1,509 @@
+{
+  "nom": "Seigneur des anneaux",
+  "departs": [
+    "le Comté",
+    "l'auberge du Poney Fringant",
+    "Fondcombe",
+    "la lisière de la Lothlórien",
+    "Edoras",
+    "Minas Tirith",
+    "la ville de Dale",
+    "Dol Amroth"
+  ],
+  "destinations": [
+    "les Havres Gris",
+    "Erebor, la Montagne Solitaire",
+    "le Gouffre de Helm",
+    "le Mont Venteux",
+    "la Tour d'Orthanc",
+    "les Collines de Fer",
+    "le Gué de Bruinen",
+    "les Champs de Pelennor"
+  ],
+  "arrivee": "Le voyage prend fin. On dépose son sac, on respire un grand coup, et l'on se dit qu'un bon repas ne serait pas de refus.",
+  "chargement": [
+    "Le sentier se déroule devant soi...",
+    "On marche sans se presser, le sac sur l'épaule...",
+    "On s'arrête pour un second déjeuner, par précaution...",
+    "Les pas trouvent leur rythme sur la route...",
+    "On resserre son manteau contre le vent...",
+    "Un feu de camp crépite avant la nuit...",
+    "On consulte une vieille carte aux bords usés...",
+    "Le paysage défile, lentement, colline après colline...",
+    "On fume une pipe en regardant l'horizon...",
+    "La route est longue, mais le cœur tient bon..."
+  ],
+  "meteo": [
+    "Le ciel est clair et la lumière dorée, comme un matin de fin d'été.",
+    "De hauts nuages blancs avancent sans menace.",
+    "Une fine pluie tombe, presque tiède, sur la capuche.",
+    "Un vent léger vient de l'ouest et porte une odeur de foin coupé.",
+    "L'air est vif et sent la fin de l'automne.",
+    "Le ciel est couvert, d'un gris uniforme et paisible.",
+    "Une brume épaisse s'étire dans les creux du terrain.",
+    "Un vent froid vient de l'est et fait frissonner.",
+    "La neige tombe en gros flocons silencieux.",
+    "Le soleil perce enfin entre deux nuages, réchauffant les épaules."
+  ],
+  "regions": [
+    {
+      "nom": "Terres du Comté",
+      "glyphe": "\"",
+      "couleur": "vert",
+      "entree": "Les collines rondes s'étalent, vertes et douces, ponctuées de portes rondes et de cheminées fumantes.",
+      "lieux": [
+        "Un chemin de terre serpente entre des haies fleuries.",
+        "Un vieux moulin tourne paresseusement au bord d'un ruisseau.",
+        "Une auberge de campagne laisse échapper une odeur de pain chaud.",
+        "Un verger s'étend sur la colline, chargé de fruits mûrs.",
+        "Un petit pont de pierre enjambe la rivière.",
+        "Un champ de blé ondule sous la brise."
+      ],
+      "ambiance": [
+        "On entend au loin le rire d'enfants qui jouent.",
+        "L'air sent la pipe et l'herbe fraîche.",
+        "Des oiseaux chantent sans se soucier du monde.",
+        "Un chat dort sur le muret, bien au chaud.",
+        "La lumière du soir donne à tout une teinte dorée."
+      ],
+      "rencontres": [
+        "Un fermier salue d'un signe de chapeau en guidant son attelage.",
+        "Une vieille dame offre une part de tarte depuis sa fenêtre.",
+        "Un jardinier taille ses rosiers en sifflotant un air connu.",
+        "Un groupe de jeunes voisins échange les nouvelles du village."
+      ],
+      "trouvailles": [
+        "un champignon parfaitement rond",
+        "une petite pomme rouge encore chaude",
+        "un bouton de manteau en laiton",
+        "un brin de menthe sauvage"
+      ]
+    },
+    {
+      "nom": "Vieille Forêt",
+      "glyphe": "T",
+      "couleur": "vert",
+      "entree": "Les arbres se referment sur le sentier, immenses et noueux, comme s'ils se penchaient pour observer le voyageur.",
+      "lieux": [
+        "Les racines forment des marches glissantes dans la pénombre.",
+        "Un saule gigantesque étend ses branches au-dessus d'une rivière sombre.",
+        "Une clairière se dessine, entourée de troncs aux écorces torturées.",
+        "Un sentier se perd dans un sous-bois épais.",
+        "Une petite maison solitaire se cache derrière un rideau de fleurs."
+      ],
+      "ambiance": [
+        "Les arbres semblent murmurer entre eux dès que l'on passe.",
+        "La mousse étouffe chaque bruit de pas.",
+        "Une lumière verdâtre filtre à peine à travers les feuilles.",
+        "Quelque part, une branche craque sans raison."
+      ],
+      "rencontres": [
+        "Un homme en veste bleue chante d'une voix claire et joyeuse.",
+        "Une belle dame aux cheveux couleur de rivière sourit près d'un étang.",
+        "Un vieux saule somnole, paraît-il, mais mieux vaut ne pas s'y attarder."
+      ],
+      "trouvailles": [
+        "un nénuphar blanc encore humide",
+        "une branche tordue en forme de bâton de marche",
+        "une baie d'un violet intense",
+        "un pot de miel à demi vide"
+      ]
+    },
+    {
+      "nom": "Collines de Bree",
+      "glyphe": "n",
+      "couleur": "jaune",
+      "entree": "Une route ancienne croise une autre, et un village tranquille s'étage sur la colline, fumant de toutes ses cheminées.",
+      "lieux": [
+        "Une auberge de bois sombre accueille voyageurs et marchands.",
+        "Un carrefour de chemins est marqué par un panneau usé.",
+        "Une palissade entoure les maisons du village.",
+        "Une étable de pierre abrite des chevaux de passage.",
+        "Un marché animé s'étale sur la place du village."
+      ],
+      "ambiance": [
+        "On entend le cliquetis des chopes et le brouhaha d'une salle commune.",
+        "Une odeur de viande rôtie traîne dans la rue.",
+        "Des enfants jouent avec un cerceau le long du chemin.",
+        "Un vieux chien dort devant l'entrée de l'auberge."
+      ],
+      "rencontres": [
+        "Un homme encapuchonné fume sa pipe dans un coin, l'air énigmatique.",
+        "Un marchand de passage propose des cartes de la région.",
+        "Un aubergiste au tablier propre sert une bière brune avec un sourire.",
+        "Un voyageur fatigué raconte les nouvelles du sud."
+      ],
+      "trouvailles": [
+        "une chope de bois sculpté",
+        "une carte griffonnée au dos d'un menu",
+        "une pièce d'argent ancienne",
+        "une miche de pain encore tiède"
+      ]
+    },
+    {
+      "nom": "Terres sauvages d'Eriador",
+      "glyphe": ",",
+      "couleur": "magenta",
+      "entree": "Les habitations disparaissent, et de vastes collines vides s'étendent de toutes parts sous un ciel immense.",
+      "lieux": [
+        "Une vieille route romaine se perd dans l'herbe haute.",
+        "Un cercle de pierres dressées veille sur un sommet.",
+        "Les ruines d'une tour de guet se dressent au sommet d'une colline.",
+        "Un tertre funéraire est couvert de bruyère sauvage.",
+        "Un gué se faufile entre des rochers moussus."
+      ],
+      "ambiance": [
+        "Le vent couche l'herbe en longues vagues grises.",
+        "Un silence large et ancien règne sur les collines.",
+        "On entend une alouette sans pouvoir la voir.",
+        "Le ciel immense écrase le voyageur d'un sentiment de petitesse."
+      ],
+      "rencontres": [
+        "Un rôdeur à la barbe de trois jours observe le chemin depuis un rocher.",
+        "Un renard traverse la route, sans aucune hâte.",
+        "Un vieux berger rassemble son troupeau en chantonnant.",
+        "Un groupe de corbeaux croasse sur une pierre dressée."
+      ],
+      "trouvailles": [
+        "une pointe de flèche rouillée",
+        "une vieille broche d'argent noircie",
+        "un brin de bruyère sèche",
+        "une pièce usée, sans visage"
+      ]
+    },
+    {
+      "nom": "Fondcombe",
+      "glyphe": "*",
+      "couleur": "cyan_clair",
+      "entree": "Une vallée cachée s'ouvre soudain, baignée de lumière douce, traversée de cascades chantantes.",
+      "lieux": [
+        "Une salle ouverte donne sur le vallon, parfumée de fleurs.",
+        "Un pont de pierre élégant enjambe une rivière claire.",
+        "Une terrasse de marbre domine la vallée en silence.",
+        "Un jardin d'herbes aromatiques court le long d'un mur blanc.",
+        "Une bibliothèque tranquille garde des parchemins d'un autre âge."
+      ],
+      "ambiance": [
+        "Une mélodie lointaine flotte dans l'air du soir.",
+        "L'eau chante sur la pierre sans jamais s'interrompre.",
+        "Le temps semble ralentir, suspendu, presque oublié.",
+        "Des feuilles dorées tournoient doucement au-dessus du ruisseau."
+      ],
+      "rencontres": [
+        "Un elfe au regard doux accueille le voyageur d'un geste de la main.",
+        "Un scribe grave note l'histoire d'un voyage oublié.",
+        "Une dame silencieuse tresse des fleurs sur un banc de pierre.",
+        "Un cuisinier propose un pain léger comme un nuage."
+      ],
+      "trouvailles": [
+        "une plume d'encre argentée",
+        "une feuille dorée, parfaitement conservée",
+        "un parchemin à l'écriture élégante",
+        "un petit flacon d'eau claire"
+      ]
+    },
+    {
+      "nom": "Monts Brumeux",
+      "glyphe": "^",
+      "couleur": "gris_clair",
+      "entree": "Le chemin monte, raide et glacé, vers de hautes cimes pâles où le vent mord le visage.",
+      "lieux": [
+        "Un col étroit serpente entre deux murs de pierre nue.",
+        "Un sentier à flanc de falaise longe un vide vertigineux.",
+        "Un éboulis gris recouvre la pente en pierres instables.",
+        "Une grotte sombre s'ouvre dans la roche, humide et froide.",
+        "Un sommet enneigé domine la vallée en contrebas."
+      ],
+      "ambiance": [
+        "Le vent siffle entre les rochers avec un son plaintif.",
+        "Des flocons dansent devant les yeux, piquants et froids.",
+        "On entend un grondement sourd, venu des profondeurs.",
+        "Le souffle devient court et l'air manque de douceur."
+      ],
+      "rencontres": [
+        "Un voyageur engoncé dans un manteau épais cherche un abri.",
+        "Un aigle plane très haut, indifférent au froid.",
+        "Un vieux nain en retraite descend la pente avec précaution.",
+        "Un guide de montagne propose ses services contre quelques pièces."
+      ],
+      "trouvailles": [
+        "un cristal de roche bleuté",
+        "une pointe de fer rouillée",
+        "un gant de laine perdu",
+        "une pièce gravée de signes nains"
+      ]
+    },
+    {
+      "nom": "Mines de la Moria",
+      "glyphe": "#",
+      "couleur": "gris",
+      "entree": "Une porte de pierre s'ouvre sur le noir. L'obscurité semble respirer, lourde et ancienne.",
+      "lieux": [
+        "Un escalier immense plonge dans les profondeurs de la montagne.",
+        "Une grande salle aux piliers brisés s'étend dans le noir.",
+        "Un pont étroit enjambe un abîme sans fond.",
+        "Une chambre funéraire garde une tombe de pierre blanche.",
+        "Un couloir de galeries en ruines s'étire à perte de vue."
+      ],
+      "ambiance": [
+        "Un goutte-à-goutte résonne dans le noir, sans fin.",
+        "Les pas résonnent trop fort entre les murs de pierre.",
+        "Un souffle tiède remonte d'un puits invisible.",
+        "Un tambour lointain bat à un rythme inquiétant."
+      ],
+      "rencontres": [
+        "Un squelette en armure rouillée garde un coffre vide.",
+        "Un vieux mineur nain raconte, à voix basse, la gloire de jadis.",
+        "Un chauve-souris passe, silencieuse, dans le faisceau d'une torche."
+      ],
+      "trouvailles": [
+        "un casque cabossé de nain",
+        "une page de journal tachée de sang séché",
+        "un éclat de métal brillant comme de l'argent",
+        "une torche presque consumée"
+      ]
+    },
+    {
+      "nom": "Forêt de Lothlórien",
+      "glyphe": "Y",
+      "couleur": "jaune",
+      "entree": "Des arbres aux feuilles d'or se dressent, immenses, et la lumière devient douce comme un souvenir.",
+      "lieux": [
+        "Une plateforme de bois s'élève dans les branches d'un grand arbre doré.",
+        "Un sentier couvert de feuilles d'or serpente entre les troncs blancs.",
+        "Une fontaine d'argent coule au milieu d'une clairière secrète.",
+        "Un escalier en spirale tourne autour d'un tronc immense.",
+        "Une rivière lente reflète le ciel entre deux rangées d'arbres."
+      ],
+      "ambiance": [
+        "Un chant doux et lointain flotte entre les branches.",
+        "Les feuilles tombent en silence, une à une.",
+        "L'air est limpide et sent les fleurs d'un printemps éternel.",
+        "On a l'impression que le monde extérieur n'existe plus."
+      ],
+      "rencontres": [
+        "Un elfe archer descend d'une branche sans un bruit.",
+        "Une dame lumineuse offre une coupe d'eau claire à l'ombre d'un arbre.",
+        "Un gardien de la forêt observe, attentif, mais silencieux."
+      ],
+      "trouvailles": [
+        "une feuille d'or encore tiède",
+        "un petit pain léger, enveloppé dans une feuille",
+        "une fine corde grise, solide et souple",
+        "une fiole de lumière scintillante"
+      ]
+    },
+    {
+      "nom": "Fleuve Anduin",
+      "glyphe": "=",
+      "couleur": "cyan",
+      "entree": "Un grand fleuve large et calme apparaît, coulant lentement vers le sud entre ses berges verdoyantes.",
+      "lieux": [
+        "Une barque glisse doucement au fil du courant.",
+        "Des falaises gigantesques encadrent le fleuve de part et d'autre.",
+        "Une cascade imposante gronde au bout d'un bras du fleuve.",
+        "Une rive couverte de roseaux se dérobe sous la brume.",
+        "Deux statues colossales veillent sur le passage, impassibles."
+      ],
+      "ambiance": [
+        "L'eau clapote contre la coque dans un rythme apaisant.",
+        "Les reflets du ciel dansent sur la surface lisse.",
+        "Un héron lance un cri rauque, puis s'envole.",
+        "La rive défile lentement, presque hypnotique."
+      ],
+      "rencontres": [
+        "Un batelier s'appuie sur sa perche et salue d'un signe de tête.",
+        "Des pêcheurs ramènent leurs filets au bord de l'eau.",
+        "Un voyageur silencieux observe la rive depuis une pierre plate."
+      ],
+      "trouvailles": [
+        "un galet plat, parfait pour ricocher",
+        "une plume de héron",
+        "un morceau de bois flotté sculpté par l'eau",
+        "un petit coquillage nacré"
+      ]
+    },
+    {
+      "nom": "Plaines du Rohan",
+      "glyphe": "\"",
+      "couleur": "jaune",
+      "entree": "Les collines s'aplanissent et d'immenses prairies d'herbe haute s'étalent jusqu'à l'horizon.",
+      "lieux": [
+        "Une route poussiéreuse traverse des plaines à perte de vue.",
+        "Une grande salle de bois domine une colline verdoyante.",
+        "Un enclos abrite des chevaux fiers et vigoureux.",
+        "Des tertres couverts de fleurs blanches marquent d'anciennes tombes.",
+        "Un étendard vert flotte au sommet d'une tour de garde."
+      ],
+      "ambiance": [
+        "Le vent fait onduler l'herbe comme une mer.",
+        "Des galops lointains font vibrer le sol.",
+        "On entend le chant d'une alouette au-dessus des champs.",
+        "L'horizon est immense, clair et parfaitement net."
+      ],
+      "rencontres": [
+        "Un cavalier à la longue cape salue d'un geste, sans ralentir.",
+        "Un éleveur de chevaux propose de l'eau et un peu de pain.",
+        "Un enfant joue de la flûte sur le seuil d'une ferme.",
+        "Un vieux guerrier regarde l'horizon, silencieux."
+      ],
+      "trouvailles": [
+        "une crinière de cheval tressée",
+        "un éperon d'argent terni",
+        "une fleur blanche des tertres",
+        "un fer à cheval porte-bonheur"
+      ]
+    },
+    {
+      "nom": "Forêt de Fangorn",
+      "glyphe": "T",
+      "couleur": "vert",
+      "entree": "Des arbres d'une taille démesurée se referment sur le chemin, et l'on sent qu'ils sont éveillés.",
+      "lieux": [
+        "Un sentier s'enfonce sous des troncs si larges qu'on peine à en faire le tour.",
+        "Une clairière tranquille est baignée d'une lumière verte.",
+        "Un ruisseau clair court entre des racines enchevêtrées.",
+        "Un vieil arbre creux semble écouter, tête penchée.",
+        "Une colline couverte de mousse s'élève au centre de la forêt."
+      ],
+      "ambiance": [
+        "Les branches murmurent doucement, dans une langue ancienne.",
+        "L'air est humide et sent la sève et la terre.",
+        "Un craquement lent, régulier, résonne au loin.",
+        "On a l'impression d'être observé par la forêt tout entière."
+      ],
+      "rencontres": [
+        "Un vieux géant de bois marche à pas lents, en fredonnant.",
+        "Un écureuil grimpe sur une épaule, curieux et rapide.",
+        "Un vieux voyageur à la barbe blanche s'appuie sur un bâton noueux."
+      ],
+      "trouvailles": [
+        "une pomme de pin géante",
+        "une gourde d'eau fraîche aux saveurs de forêt",
+        "une feuille immense, encore verte",
+        "une graine lumineuse"
+      ]
+    },
+    {
+      "nom": "Gondor et Minas Tirith",
+      "glyphe": "M",
+      "couleur": "blanc",
+      "entree": "Une cité blanche surgit devant le voyageur, bâtie en cercles sur le flanc d'une montagne.",
+      "lieux": [
+        "Une haute porte de pierre s'ouvre sur une rue pavée en pente.",
+        "Une place ensoleillée est dominée par un arbre blanc, mort mais vénéré.",
+        "Un rempart immense protège la cité de toutes parts.",
+        "Une tour élancée domine la plaine à perte de vue.",
+        "Une avenue bordée de statues antiques mène vers un palais."
+      ],
+      "ambiance": [
+        "Des cloches sonnent dans l'air limpide du matin.",
+        "On entend le pas régulier d'une garde en armure d'argent.",
+        "L'odeur du pain chaud se mêle à celle de la pierre chauffée.",
+        "Un silence grave pèse sur la ville, comme avant une tempête."
+      ],
+      "rencontres": [
+        "Un garde à l'armure étincelante demande poliment son nom au voyageur.",
+        "Un vieux conteur évoque la gloire passée du royaume.",
+        "Un apothicaire prépare un onguent à la lumière d'une lampe.",
+        "Un enfant court porter un message dans les ruelles."
+      ],
+      "trouvailles": [
+        "une pièce frappée d'un arbre blanc",
+        "un fragment de statue en marbre blanc",
+        "une lettre cachetée, jamais remise",
+        "une bague gravée d'une étoile"
+      ]
+    },
+    {
+      "nom": "Ithilien",
+      "glyphe": "\"",
+      "couleur": "vert",
+      "entree": "Un jardin sauvage s'étend, parfumé d'herbes et de fleurs, comme un dernier répit avant l'ombre.",
+      "lieux": [
+        "Un sentier couvert d'herbes aromatiques traverse un bois de cèdres.",
+        "Une cascade fraîche tombe dans un bassin de pierre.",
+        "Une source cachée jaillit sous des arbres feuillus.",
+        "Une clairière paisible est tapissée de fleurs sauvages.",
+        "Un abri de feuillage a été dressé près d'un ruisseau."
+      ],
+      "ambiance": [
+        "Le chant des oiseaux se mêle au murmure de l'eau.",
+        "L'air embaume le thym et la lavande.",
+        "Le soleil caresse les feuilles d'une lumière dorée.",
+        "Un calme fragile repose sur le paysage, comme en suspens."
+      ],
+      "rencontres": [
+        "Un rôdeur silencieux apparaît entre deux cèdres, un doigt sur les lèvres.",
+        "Un lapin passe, indifférent au drame du monde.",
+        "Un vieux soldat partage un ragoût de lapin, avec un sourire grave."
+      ],
+      "trouvailles": [
+        "un brin de thym sauvage",
+        "une baie rouge comestible",
+        "un petit arc de fortune, taillé dans une branche",
+        "une pierre plate couverte de lichen"
+      ]
+    },
+    {
+      "nom": "Marais des Morts",
+      "glyphe": "~",
+      "couleur": "bleu",
+      "entree": "Le sol devient meuble, et une brume noire avale les contours. L'eau noire cache des visages.",
+      "lieux": [
+        "Un chemin étroit serpente entre des mares sombres et stagnantes.",
+        "Des roseaux pâles plient sous un vent invisible.",
+        "Une île de joncs apparaît puis disparaît dans la brume.",
+        "Une vieille digue effondrée s'enfonce dans la vase.",
+        "Des lueurs vertes flottent au-dessus de l'eau stagnante."
+      ],
+      "ambiance": [
+        "Une odeur de vase et de pourriture flotte dans l'air.",
+        "Tout semble étouffé, comme sous un linceul.",
+        "On entend un chuchotement, sans pouvoir le situer.",
+        "Les reflets de l'eau montrent des formes qui n'existent pas."
+      ],
+      "rencontres": [
+        "Une créature maigre et pâle bondit de pierre en pierre devant le voyageur.",
+        "Un héron reste planté là, indifférent aux fantômes.",
+        "Un voyageur épuisé s'accroche à une branche, l'air hagard."
+      ],
+      "trouvailles": [
+        "une pièce de monnaie rongée par la vase",
+        "un fragment d'épée ancienne",
+        "une plume noire, froide au toucher",
+        "un petit flacon bouché, vide"
+      ]
+    },
+    {
+      "nom": "Terres brûlées du Mordor",
+      "glyphe": "x",
+      "couleur": "rouge",
+      "entree": "Le ciel se couvre de cendre. L'air devient lourd, sec et âcre, et la terre elle-même semble respirer la menace.",
+      "lieux": [
+        "Une plaine de roche noire s'étend sous un ciel rougeoyant.",
+        "Un sentier de cendres grises serpente entre des failles fumantes.",
+        "Un camp d'orques abandonné laisse des traces de feu éteint.",
+        "Une tour sombre se dresse au loin, surmontée d'un œil de flamme.",
+        "Une route poussiéreuse mène vers une montagne en éruption."
+      ],
+      "ambiance": [
+        "Un grondement sourd monte du sol, comme un cœur lointain.",
+        "La cendre se dépose sur les épaules, légère et pesante à la fois.",
+        "L'air brûle la gorge et pique les yeux.",
+        "Aucune plante, aucun oiseau, rien que le silence du roc."
+      ],
+      "rencontres": [
+        "Un messager noir passe au loin, sur une monture ailée.",
+        "Un orque fatigué tire un chariot de ferraille sans lever les yeux.",
+        "Un voyageur épuisé s'effondre à l'ombre d'un rocher, un sourire las aux lèvres."
+      ],
+      "trouvailles": [
+        "un éclat d'obsidienne brillant comme du verre",
+        "une gourde d'eau fraîche, d'une valeur inestimable",
+        "un morceau de pain dur, mais précieux",
+        "une pointe de flèche à la forme sinistre"
+      ]
+    }
+  ]
+}

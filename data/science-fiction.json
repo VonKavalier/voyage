@@ -1,0 +1,301 @@
+{
+  "nom": "Science-fiction",
+  "departs": [
+    "la station orbitale d'Aurore",
+    "le spatioport de Néo-Lisbonne",
+    "la colonie minière de Cérès-Nord",
+    "le quai 9 de la Jonction Kepler",
+    "l'arche dormante d'Erebos",
+    "la base lunaire de Tycho"
+  ],
+  "destinations": [
+    "la Balise de Vega",
+    "l'Observatoire du Dernier Horizon",
+    "la cité-jardin d'Elysium Prime",
+    "la Station Silencieuse de Tau Ceti",
+    "le Carrefour des Mille Routes",
+    "la Forge d'Orion"
+  ],
+  "arrivee": "Le vaisseau s'amarre dans un faible choc métallique. Les moteurs s'éteignent, et l'on savoure un instant le silence retrouvé.",
+  "chargement": [
+    "Les moteurs se mettent en veille...",
+    "Le cap est verrouillé...",
+    "On file à vitesse de croisière...",
+    "Les étoiles défilent lentement...",
+    "Le système de navigation recalcule la trajectoire...",
+    "Les réserves d'oxygène sont vérifiées...",
+    "Un léger ronronnement berce la coque...",
+    "On sort du sommeil cryogénique, sans hâte...",
+    "Le saut hyperspatial se prépare...",
+    "L'équipage échange quelques mots autour d'un thé tiède..."
+  ],
+  "meteo": [
+    "Le champ d'étoiles est dégagé et la lumière stable.",
+    "Un vent solaire faible fait crépiter les capteurs.",
+    "Une pluie de micrométéorites tambourine doucement sur le blindage.",
+    "Les radiations sont basses, le ciel est calme.",
+    "Un nuage de poussière tamise la lumière des étoiles lointaines.",
+    "Les instruments signalent une tempête magnétique, sans danger immédiat.",
+    "Le vide est total, d'un noir profond et paisible.",
+    "Une aurore stellaire ondule au loin, verte et lente.",
+    "Les capteurs ne détectent aucune anomalie.",
+    "Un faible rayonnement cosmique fait scintiller les écrans."
+  ],
+  "regions": [
+    {
+      "nom": "Ceinture d'astéroïdes",
+      "glyphe": "*",
+      "couleur": "gris_clair",
+      "entree": "Les premiers rochers apparaissent, puis des milliers, dérivant lentement dans le noir.",
+      "lieux": [
+        "Le vaisseau se faufile entre des blocs de roche grands comme des immeubles.",
+        "Une station minière abandonnée tourne doucement sur elle-même.",
+        "Un astéroïde creux sert de hangar à des cargos endormis.",
+        "Un champ de débris brille comme de la poussière de fer.",
+        "Une balise de navigation clignote sur un rocher solitaire.",
+        "Un convoi de foreuses automatiques creuse sans relâche un astéroïde métallique."
+      ],
+      "ambiance": [
+        "Un cliquetis de gravillons résonne contre la coque.",
+        "Les rochers se croisent avec une lenteur presque hypnotique.",
+        "Le radar bipe doucement à chaque obstacle évité.",
+        "La lumière du soleil lointain accroche les arêtes de la roche.",
+        "On entend les moteurs corriger la trajectoire par petites touches."
+      ],
+      "rencontres": [
+        "Un mineur en combinaison jaune salue d'un geste depuis son astéroïde.",
+        "Un drone de prospection tourne autour du vaisseau, curieux, puis repart.",
+        "Un vieux cargo hèle l'équipage pour échanger les dernières nouvelles de la ceinture.",
+        "Un enfant né sur une station minière fait signe derrière un hublot."
+      ],
+      "trouvailles": [
+        "un éclat de fer météoritique",
+        "un cristal de glace parfaitement clair",
+        "un casque de mineur rayé, encore fonctionnel",
+        "un fragment de roche veiné d'or pâle",
+        "un vieux journal de bord, gravé sur une plaque d'alliage"
+      ]
+    },
+    {
+      "nom": "Nébuleuse de Lyra",
+      "glyphe": "~",
+      "couleur": "magenta",
+      "entree": "Le noir cède la place à de grands voiles de gaz rose et violet qui baignent la cabine d'une lueur douce.",
+      "lieux": [
+        "Le vaisseau glisse à travers des nuages de gaz ionisé.",
+        "Une pouponnière d'étoiles brille derrière un rideau de poussière.",
+        "Un pilier de gaz se dresse, immense, éclairé par de jeunes soleils.",
+        "Une étoile naissante pulse doucement au cœur d'un cocon de lumière.",
+        "Des filaments lumineux dessinent des arabesques à perte de vue.",
+        "Un passage étroit serpente entre deux murs de nuées colorées."
+      ],
+      "ambiance": [
+        "Les écrans prennent des teintes de cuivre et de rose.",
+        "Un silence feutré semble envelopper tout le vaisseau.",
+        "Des étincelles de lumière crépitent à la surface de la coque.",
+        "Le gaz ondule comme de la soie dans un vent invisible.",
+        "La cabine baigne dans une lumière irréelle et apaisante."
+      ],
+      "rencontres": [
+        "Un astronome solitaire observe la nébuleuse depuis un petit satellite.",
+        "Un banc d'organismes lumineux dérive à côté du vaisseau, indifférent.",
+        "Un vaisseau-atelier propose de recalibrer les capteurs encrassés par les gaz.",
+        "Un peintre en combinaison capture la lumière de la nébuleuse sur une toile."
+      ],
+      "trouvailles": [
+        "un flacon de gaz stellaire scintillant",
+        "une carte de navigation annotée à la main",
+        "une sphère de verre contenant une minuscule aurore",
+        "un échantillon de poussière irisée"
+      ]
+    },
+    {
+      "nom": "Anneaux de Saturne",
+      "glyphe": "=",
+      "couleur": "cyan_clair",
+      "entree": "Une immense arche de glace et de roche s'étend devant le vaisseau, scintillante comme du givre.",
+      "lieux": [
+        "Le vaisseau longe un anneau fait de blocs de glace étincelants.",
+        "Un petit satellite berger veille sur la frontière d'un anneau.",
+        "Une station d'observation est suspendue au-dessus d'un gouffre de lumière.",
+        "Une lune glacée expose ses geysers à la lueur du soleil.",
+        "Un chemin de balises balise un passage sûr entre deux anneaux."
+      ],
+      "ambiance": [
+        "Les cristaux de glace tintent doucement contre le blindage.",
+        "La planète emplit tout le hublot, immense et dorée.",
+        "La lumière se reflète sur des millions de fragments givrés.",
+        "Le vaisseau semble minuscule face à une telle grandeur."
+      ],
+      "rencontres": [
+        "Un pilote de navette distribue des tasses de café lyophilisé depuis son sas.",
+        "Un vieux cartographe note les mouvements de l'anneau depuis cinquante ans.",
+        "Un groupe de touristes en combinaison prend des photos sur un bloc de glace.",
+        "Un cargo-citerne remplit ses réservoirs en collectant de la glace pure."
+      ],
+      "trouvailles": [
+        "un cube de glace éternelle",
+        "un cliché de la planète, signé d'un inconnu",
+        "une pièce d'alliage poli par des siècles de poussière",
+        "un morceau de glace où est figée une bulle d'air ancien"
+      ]
+    },
+    {
+      "nom": "Champ de ruines stellaires",
+      "glyphe": "#",
+      "couleur": "jaune",
+      "entree": "Des carcasses de vaisseaux immenses flottent dans le noir, vestiges d'une époque oubliée.",
+      "lieux": [
+        "Une coque d'anciens croiseurs dérive sans équipage, éventrée.",
+        "Un cimetière de stations spatiales s'étend sur des milliers de kilomètres.",
+        "Une grande arche brisée flotte autour d'une étoile éteinte.",
+        "Un couloir de métal tordu s'ouvre sur un hangar silencieux.",
+        "Les restes d'une cité en orbite scintillent faiblement dans l'ombre."
+      ],
+      "ambiance": [
+        "Les capteurs captent d'anciens signaux, répétés à l'infini.",
+        "Un grincement lointain résonne dans la coque, sans origine.",
+        "Les ombres des carcasses glissent lentement sur les hublots.",
+        "Tout paraît figé, comme suspendu entre deux époques."
+      ],
+      "rencontres": [
+        "Un récupérateur découpe un panneau de blindage avec soin.",
+        "Une archiviste en combinaison grise enregistre chaque épave pour la postérité.",
+        "Un drone de maintenance poursuit sa ronde, fidèle à un ordre vieux de mille ans.",
+        "Un vieux capitaine raconte la bataille qui a eu lieu ici, sans élever la voix."
+      ],
+      "trouvailles": [
+        "une plaque d'immatriculation à demi effacée",
+        "un module mémoire encore tiède",
+        "une clé d'accès sans serrure",
+        "un insigne d'équipage brillant sous la poussière",
+        "une tasse en métal, gravée d'un nom oublié"
+      ]
+    },
+    {
+      "nom": "Jardins orbitaux",
+      "glyphe": "\"",
+      "couleur": "vert",
+      "entree": "Un anneau de verdure tourne lentement dans le vide, éclairé par un soleil artificiel.",
+      "lieux": [
+        "Une grande serre suspendue offre des allées d'arbres fruitiers.",
+        "Un canal d'eau claire traverse une prairie aux fleurs étranges.",
+        "Une forêt de bambous pousse sur la paroi d'un cylindre tournant.",
+        "Une colline artificielle monte doucement vers le centre de la station.",
+        "Un potager en terrasses s'étage sous la lumière d'un soleil factice."
+      ],
+      "ambiance": [
+        "L'air est humide et sent la terre fraîche.",
+        "Des abeilles mécaniques bourdonnent de fleur en fleur.",
+        "Une pluie fine, programmée, tombe sur les feuilles à heure fixe.",
+        "Le chant d'oiseaux enregistrés couvre le murmure des pompes.",
+        "La lumière change doucement, imitant le cycle du jour."
+      ],
+      "rencontres": [
+        "Un jardinier en salopette taille un cerisier sans se retourner.",
+        "Un enfant poursuit un papillon génétiquement modifié entre les rangées de blé.",
+        "Une botaniste offre une pomme cueillie sur un arbre vieux de cent ans.",
+        "Un robot arroseur s'incline poliment sur le passage du voyageur."
+      ],
+      "trouvailles": [
+        "une pomme encore tiède",
+        "un sachet de graines d'une espèce inconnue",
+        "une feuille d'un vert presque phosphorescent",
+        "une fleur séchée pressée dans un petit carnet"
+      ]
+    },
+    {
+      "nom": "Désert de la planète rouge",
+      "glyphe": ",",
+      "couleur": "rouge",
+      "entree": "Le vaisseau se pose sur un sol de poussière ocre, sous un ciel pâle et sans nuages.",
+      "lieux": [
+        "Une piste balisée traverse des dunes de sable rouille.",
+        "Un canyon immense s'ouvre à l'horizon, strié de couches rouges et orangées.",
+        "Un dôme pressurisé abrite une petite colonie agricole.",
+        "Un vieux rover repose, à moitié enseveli, au pied d'une falaise.",
+        "Un cratère ancien dessine un cercle parfait dans la plaine."
+      ],
+      "ambiance": [
+        "Le vent soulève de fines volutes de poussière rouge.",
+        "Le soleil est petit, pâle, mais éclaire tout avec netteté.",
+        "Le silence est épais, rompu seulement par le souffle de la combinaison.",
+        "Les traces de pas s'effacent presque aussitôt."
+      ],
+      "rencontres": [
+        "Un colon propose un verre d'eau recyclée à l'entrée de son dôme.",
+        "Une géologue plante des balises en chantonnant dans sa radio.",
+        "Un convoi de rovers passe au loin, soulevant un long panache rouge.",
+        "Un vieux prospecteur dort à l'ombre de son engin, casque posé sur les genoux."
+      ],
+      "trouvailles": [
+        "une pierre ferrugineuse d'un rouge profond",
+        "un petit flacon de sable martien",
+        "un fragment de sonde, gravé d'une date lointaine",
+        "un fossile minuscule, peut-être le premier"
+      ]
+    },
+    {
+      "nom": "Vide interstellaire",
+      "glyphe": "`",
+      "couleur": "gris",
+      "entree": "Les dernières lumières familières s'éteignent. Il ne reste que le noir, immense et calme.",
+      "lieux": [
+        "Le vaisseau dérive loin de tout système, sans repère visible.",
+        "Une étoile solitaire brille au loin, seule dans l'obscurité.",
+        "Un relais de communication, oublié, répète encore son message.",
+        "Un sillage de poussière marque le passage d'un autre vaisseau.",
+        "Une comète glisse silencieusement, sa longue queue tournée vers nulle part."
+      ],
+      "ambiance": [
+        "Le silence est total, comme une page blanche.",
+        "Les étoiles semblent immobiles, éternelles.",
+        "On entend la respiration de l'équipage et le souffle des ventilateurs.",
+        "Le temps paraît s'étirer, sans urgence."
+      ],
+      "rencontres": [
+        "Un message radio perdu, à peine audible, souhaite bon voyage.",
+        "Un vaisseau lent croise la route et échange un salut par signaux lumineux.",
+        "Un voyageur solitaire partage ses dernières rations autour d'une conversation radio.",
+        "Une sonde ancienne glisse dans le noir, portant encore son disque d'or."
+      ],
+      "trouvailles": [
+        "une capsule de message dérivante",
+        "un petit morceau de comète gelée",
+        "une carte stellaire annotée de mains inconnues",
+        "une lentille de télescope parfaitement polie"
+      ]
+    },
+    {
+      "nom": "Cité-vaisseau de Nova",
+      "glyphe": "H",
+      "couleur": "cyan",
+      "entree": "Une métropole flottante se dessine, hérissée de tours et de quais illuminés.",
+      "lieux": [
+        "Une avenue de verre traverse des marchés bondés de voyageurs.",
+        "Un quai d'amarrage s'étire sous une forêt de passerelles.",
+        "Un atrium immense laisse voir les étoiles à travers une verrière.",
+        "Une ruelle sombre est éclairée par des enseignes holographiques.",
+        "Une gare à lévitation relie les différents quartiers de la cité."
+      ],
+      "ambiance": [
+        "Mille langues se mêlent dans un brouhaha chaleureux.",
+        "Des publicités flottent dans l'air, se déroulant au passage.",
+        "L'odeur de cuisine épicée monte depuis les étals.",
+        "Un monorail glisse au-dessus de la foule dans un chuintement doux."
+      ],
+      "rencontres": [
+        "Un marchand d'épices venu de six systèmes différents fait goûter ses mélanges.",
+        "Une musicienne joue d'un instrument inconnu au coin d'une passerelle.",
+        "Un robot guide propose, très poliment, ses services pour la journée.",
+        "Un capitaine à la retraite offre un café sur la terrasse d'un petit bar."
+      ],
+      "trouvailles": [
+        "une carte de transport encore valide",
+        "un jeton de métal gravé d'une étoile",
+        "un petit hologramme souvenir qui change de couleur",
+        "une épice rare enfermée dans un tube de verre"
+      ]
+    }
+  ]
+}
