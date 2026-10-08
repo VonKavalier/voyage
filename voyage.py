@@ -339,6 +339,7 @@ def choisir(titre: str, options: list) -> int:
     print(c(f"  {titre}", "gris_clair"))
     for i, o in enumerate(options, 1):
         print(c(f"    {i}) {o}", "gris"))
+        print()
     while True:
         rep = demander("  > ")
         if rep.isdigit() and 1 <= int(rep) <= len(options):
@@ -490,14 +491,15 @@ def lancer_etape(etat: dict, u: dict, rapide: bool, discret: bool) -> None:
     if changement:
         parts.append(region["entree"])
     parts.append(rng.choice(region["lieux"]))
-    parts.append(rng.choice(u["meteo"]))
+    parts.append(rng.choice(region.get("meteo", u["meteo"])))
     parts.append(rng.choice(region["ambiance"]))
     if rng.randrange(100) < 45:
         parts.append(rng.choice(region["rencontres"]))
     if rng.randrange(100) < 30:
         trouvaille = rng.choice(region["trouvailles"])
-        parts.append(f"On ramasse {trouvaille}.")
-        etat["souvenirs"].append(trouvaille)
+        if trouvaille not in etat["souvenirs"]:
+            parts.append(f"On ramasse {trouvaille}.")
+            etat["souvenirs"].append(trouvaille)
     if arrive:
         parts.append(f"Devant {etat['destination']}, le chemin s'achève.")
         parts.append(u["arrivee"])

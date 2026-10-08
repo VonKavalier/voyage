@@ -102,7 +102,8 @@ Il apparaît alors dans le menu du premier lancement. Le nom du fichier sert d'i
       "lieux": ["Phrase complète."],
       "ambiance": ["Phrase complète."],
       "rencontres": ["Phrase complète."],
-      "trouvailles": ["une plume bleue"]   // complète « On ramasse ... »
+      "trouvailles": ["une plume bleue"],   // complète « On ramasse ... »
+      "meteo": ["Phrase complète."]         // optionnel, pour une météo plus précise par région
     }
   ]
 }
