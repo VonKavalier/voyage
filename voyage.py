@@ -125,7 +125,7 @@ def valider_univers(u) -> None:
     for cle in ("nom", "arrivee"):
         if not isinstance(u.get(cle), str) or not u[cle].strip():
             raise ValueError(f"'{cle}' manquant ou vide")
-    for cle in ("departs", "destinations", "chargement", "meteo"):
+    for cle in ("chargement", "meteo"):
         _liste_textes(u.get(cle), cle)
 
     mini = max(p["nb_regions"] for p in PROFILS)
@@ -146,7 +146,9 @@ def valider_univers(u) -> None:
             )
         if r.get("couleur") not in COULEURS:
             raise ValueError(f"région n°{i} : 'couleur' doit être parmi {', '.join(COULEURS)}")
-        for cle in ("lieux", "ambiance", "rencontres", "trouvailles"):
+        for cle in ("adresses", "lieux", "ambiance", "rencontres", "trouvailles", "meteo"):
+            if cle == "meteo" and "meteo" not in r:
+                continue
             try:
                 _liste_textes(r.get(cle), cle)
             except ValueError as err:
@@ -273,7 +275,7 @@ def _date(iso: str, fmt: str) -> str:
 
 def lignes_bilan(etat: dict, u: dict) -> list:
     profil = PROFILS[etat["profil"]]
-    noms = [u["regions"][i]["nom"] for i in etat["sequence"]]
+    noms = [u["regions"][i]["nom"] for i in etat["regions"]]
     souvenirs = etat["souvenirs"]
     lignes = [
         f"Voyage       : {profil['nom']} ({u['nom']})",
@@ -432,7 +434,7 @@ def nouveau_voyage(univers: dict) -> dict:
     cles = sorted(univers)
     iu = choisir("Univers", [univers[k]["nom"] for k in cles])
     ip = choisir("Durée du voyage", [
-        "Trajet quotidien (court)", "Randonnée (moyen)", "Voyage par étapes (long)",
+        "Trajet quotidien (court)", "Randonnée (moyen)", "Voyage (long)",
     ])
     cle = cles[iu]
     u = univers[cle]
@@ -447,12 +449,13 @@ def nouveau_voyage(univers: dict) -> dict:
         "univers": cle,
         "profil": ip,
         "sequence": sequence,
-        "depart": r.choice(u["departs"]),
-        "destination": r.choice(u["destinations"]),
+        "depart": r.choice(u["regions"][sequence[0]]["adresses"]),
+        "destination": r.choice(u["regions"][sequence[-1]]["adresses"]),
         "debut": datetime.now().isoformat(timespec="seconds"),
         "fin": None,
         "progression": 0.0,
         "etape": 0,
+        "regions": [],
         "souvenirs": [],
         "journal": [],
     }
@@ -505,6 +508,9 @@ def lancer_etape(etat: dict, u: dict, rapide: bool, discret: bool) -> None:
         parts.append(u["arrivee"])
         etat["fin"] = datetime.now().isoformat(timespec="seconds")
     texte = " ".join(parts)
+
+    if pos["region"] not in etat["regions"]:
+        etat["regions"].append(pos["region"])
 
     etat["journal"].append({
         "date": datetime.now().isoformat(timespec="seconds"),

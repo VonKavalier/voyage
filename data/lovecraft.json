@@ -1,0 +1,412 @@
+{
+  "nom": "Lovecraft",
+  "arrivee": "Le trajet prend fin. On reste un instant immobile, sans oser regarder derrière soi, soulagé d'être arrivé, mais troublé de ne pas savoir pourquoi.",
+  "chargement": [
+    "La route s'étire dans la brume...",
+    "On avance, sans trop savoir pourquoi...",
+    "Une impression d'être observé s'installe...",
+    "Les pas résonnent plus fort qu'ils ne le devraient...",
+    "On consulte un journal aux pages tachées...",
+    "L'horizon semble s'éloigner à mesure qu'on marche...",
+    "Un murmure indistinct accompagne chaque pas...",
+    "On évite de regarder les ombres sur le bas-côté...",
+    "Le temps semble s'écouler de façon étrange...",
+    "On essaie de ne pas penser à ce qui attend à l'arrivée..."
+  ],
+  "meteo": [
+    "Le ciel est couvert, d'un gris livide et sans fin.",
+    "Une brume froide s'accroche aux contours du paysage.",
+    "Une pluie fine tombe, ni chaude ni froide, presque oubliée.",
+    "L'air est étrangement immobile, comme retenu.",
+    "La lune est pleine et d'un blanc malade.",
+    "Un vent glacé arrive de la mer et porte une odeur de sel et de vase.",
+    "Le ciel est d'un jaune pâle, malsain, comme avant un orage.",
+    "Les étoiles semblent plus nombreuses que d'ordinaire, et un peu trop proches.",
+    "Un crépuscule interminable s'étire sans jamais devenir nuit.",
+    "Une lueur verdâtre filtre à travers les nuages."
+  ],
+  "regions": [
+    {
+      "nom": "Rues d'Arkham",
+      "glyphe": "H",
+      "couleur": "gris",
+      "entree": "Des pignons sombres se pressent de part et d'autre de la rue, et les fenêtres semblent suivre les passants.",
+      "adresses": [
+        "la gare d'Arkham",
+        "le campus silencieux de l'université Miskatonic"
+      ],
+      "lieux": [
+        "Une ruelle pavée serpente entre des maisons aux toits en pente.",
+        "Une place déserte est dominée par une église au clocher penché.",
+        "Un pont de pierre enjambe une rivière noire et lente.",
+        "Une boutique d'antiquités expose des objets que l'on préférerait ne pas toucher.",
+        "Une impasse humide s'achève sur un mur couvert de signes illisibles.",
+        "Un escalier tournant descend vers une cave dont la porte reste entrebâillée.",
+        "Une vieille bibliothèque ouvre ses portes de chêne sur un hall sombre."
+      ],
+      "ambiance": [
+        "Quelque part, une horloge sonne treize coups, puis se tait.",
+        "Un chat noir observe depuis une fenêtre, trop immobile.",
+        "L'odeur de la pierre humide et du papier moisi flotte dans l'air.",
+        "Les lampadaires vacillent sans qu'aucun vent ne souffle.",
+        "Un murmure monte d'une cave, puis s'arrête dès qu'on tend l'oreille.",
+        "Les pas résonnent sur les pavés, un peu en retard sur ceux qu'on fait."
+      ],
+      "rencontres": [
+        "Un bibliothécaire aux yeux cernés chuchote une mise en garde.",
+        "Un étudiant pâle serre contre lui un livre relié de cuir sans titre.",
+        "Un vieil homme assis sur un banc fixe un point invisible dans la rue.",
+        "Un médecin pressé traverse la rue en évitant tout regard.",
+        "Une logeuse au sourire fixe propose une chambre à bon prix.",
+        "Un colporteur propose une amulette en jurant qu'elle protège."
+      ],
+      "trouvailles": [
+        "une page arrachée, couverte d'une écriture inconnue",
+        "une clé de cuivre, au pennon en forme de pieuvre",
+        "un médaillon qui s'ouvre sur un portrait effacé",
+        "une pièce de monnaie d'un pays qui n'existe plus",
+        "un petit os poli, percé d'un trou",
+        "une carte postale non adressée, datée de demain"
+      ],
+      "meteo": [
+        "Une pluie fine plaque les pavés d'un éclat noir.",
+        "Un brouillard épais avale les réverbères un à un.",
+        "Le ciel pèse d'un gris bas sur les cheminées.",
+        "Un vent glacé s'engouffre dans les ruelles étroites.",
+        "La lune éclaire les toits d'une lumière blême."
+      ]
+    },
+    {
+      "nom": "Forêts de Miskatonic",
+      "glyphe": "\"",
+      "couleur": "vert",
+      "entree": "Les arbres se referment, noirs et noueux, et l'on ne perçoit plus aucun chant d'oiseau.",
+      "adresses": [
+        "une auberge sans nom au bord de la route",
+        "le cercle de pierres noires"
+      ],
+      "lieux": [
+        "Un sentier se perd dans un sous-bois d'une obscurité trop dense.",
+        "Une clairière circulaire est ornée d'un cercle de pierres noires.",
+        "Un vieux chêne creux ouvre sa gueule sur une cavité sans fond.",
+        "Un ruisseau noir se faufile entre des racines blanchies.",
+        "Une cabane de bûcheron, abandonnée depuis des années, garde sa porte entrouverte.",
+        "Un pont de bois pourri enjambe un ravin couvert de mousse."
+      ],
+      "ambiance": [
+        "Aucune feuille ne bruisse, malgré le vent qu'on devine plus haut.",
+        "Un craquement de branche répond à chaque pas, un instant plus tard.",
+        "L'air sent la terre humide et quelque chose d'indéfinissable.",
+        "Des champignons pâles luisent faiblement au pied des troncs.",
+        "Une impression d'être suivi accompagne chaque détour du sentier.",
+        "Le silence est si épais qu'on entend battre son propre cœur."
+      ],
+      "rencontres": [
+        "Un vieux bûcheron refuse obstinément de regarder dans la direction du bois.",
+        "Un chien errant s'arrête, grogne vers les arbres, puis s'enfuit.",
+        "Un botaniste affirme avoir trouvé une espèce qui n'existe dans aucun livre.",
+        "Une silhouette grande et mince se tient à la lisière, puis disparaît.",
+        "Un garde-chasse demande, d'un ton las, si on a vu des lumières dans les arbres."
+      ],
+      "trouvailles": [
+        "une feuille dont les nervures dessinent un visage",
+        "une plume noire sans reflets",
+        "un fragment de bois gravé de symboles circulaires",
+        "une pierre ronde, étrangement tiède",
+        "un morceau d'écorce couvert d'un lichen phosphorescent"
+      ],
+      "meteo": [
+        "Une pâle lueur verdâtre filtre à travers la ramure.",
+        "La brume rampe entre les troncs à hauteur de genoux.",
+        "Une pluie lourde s'abat, sans que l'on perçoive le moindre bruit.",
+        "L'air est immobile, saturé d'humidité.",
+        "La nuit tombe plus vite que prévu sous le couvert des arbres."
+      ]
+    },
+    {
+      "nom": "Côte d'Innsmouth",
+      "glyphe": "~",
+      "couleur": "cyan",
+      "entree": "Une odeur de poisson et de sel âcre précède l'apparition d'un village à demi englouti dans la brume marine.",
+      "adresses": [
+        "le village d'Innsmouth",
+        "le Récif du Diable",
+        "le manoir de la famille Marsh",
+        "le port brumeux de Kingsport",
+        "le phare désaffecté d'Ipswich"
+      ],
+      "lieux": [
+        "Un quai de bois pourri avance dans une eau trop calme.",
+        "Une rue en pente, bordée de façades affaissées, mène au port.",
+        "Une jetée de pierre s'avance vers un récif à peine visible.",
+        "Une église sombre, dont les vitraux représentent des scènes marines étranges, domine la place.",
+        "Une grève de galets noirs borde un rivage où rien ne bouge.",
+        "Une vieille conserverie aux fenêtres brisées exhale une odeur de poisson ancien."
+      ],
+      "ambiance": [
+        "Le clapotis de l'eau semble rythmé, presque comme un chant.",
+        "Des regards furtifs se glissent derrière chaque rideau.",
+        "Les mouettes se taisent à mesure qu'on s'approche de l'eau.",
+        "Une odeur de vase et d'algues décomposées imprègne tout.",
+        "Les pas résonnent sur les planches du quai, sans autre réponse.",
+        "Au loin, un bruit sourd rappelle une immense respiration."
+      ],
+      "rencontres": [
+        "Un pêcheur aux yeux écartés détourne la tête sans un mot.",
+        "Un vieillard édenté raconte en chuchotant des histoires d'avant la catastrophe.",
+        "Une femme aux mains palmées étend du linge, un sourire figé aux lèvres.",
+        "Un enfant au regard fixe regarde la mer, la tête légèrement penchée.",
+        "Un marin étranger prétend avoir vu quelque chose bouger sous la jetée."
+      ],
+      "trouvailles": [
+        "un coquillage d'une spirale impossible",
+        "une écaille irisée, grande comme une main",
+        "un bijou d'or terne, en forme de créature marine",
+        "une bouteille bouchée, contenant un papier mouillé",
+        "une dent de requin, gravée d'un symbole inconnu"
+      ],
+      "meteo": [
+        "Un brouillard salé enveloppe le port d'un voile humide.",
+        "Un vent froid de l'océan fait grincer les enseignes.",
+        "La mer est d'un calme suspect, plate comme un miroir.",
+        "Une pluie glacée tambourine sur les toits affaissés.",
+        "La lune éclaire la baie d'une lueur pâle et verdâtre."
+      ]
+    },
+    {
+      "nom": "Collines de Dunwich",
+      "glyphe": "n",
+      "couleur": "jaune",
+      "entree": "Les collines se dressent, couvertes d'une herbe pâle, et un silence lourd s'étend sur les hameaux dispersés.",
+      "adresses": [
+        "la ferme des Whateley à Dunwich",
+        "la pierre dressée de la colline de Sentinel"
+      ],
+      "lieux": [
+        "Une route de terre sinueuse grimpe entre des fermes délabrées.",
+        "Une pierre dressée veille au sommet d'une colline pelée.",
+        "Une ferme isolée dont les volets sont fermés dresse son toit affaissé.",
+        "Un pont couvert, étroit et sombre, enjambe un ruisseau noir.",
+        "Une grange aux planches rongées exhale une odeur douceâtre.",
+        "Un cercle de pierres plates est dessiné sur le flanc d'une colline."
+      ],
+      "ambiance": [
+        "Les engoulevents chantent en rythme, trop nombreux, trop attentifs.",
+        "Un grondement sourd monte du sol, puis s'éteint.",
+        "L'herbe est plate, comme si quelque chose de très lourd y avait dormi.",
+        "L'air a un goût étrange, métallique.",
+        "Le vent apporte des bribes de chants, à peine perceptibles.",
+        "La nuit, des lueurs inexpliquées dansent sur les crêtes."
+      ],
+      "rencontres": [
+        "Un fermier se signe en voyant passer un étranger vers les collines.",
+        "Un vieillard ouvre sa porte, regarde l'étranger, puis la referme.",
+        "Un jeune homme étrangement grand fixe le voyageur sans bouger.",
+        "Un pasteur épuisé confie qu'il prie depuis des semaines.",
+        "Un chien aboie vers la colline avec une terreur qu'on ne lui connaît pas."
+      ],
+      "trouvailles": [
+        "un morceau de métal qui semble plus lourd qu'il ne devrait",
+        "une feuille d'un livre ancien, couverte de diagrammes",
+        "une bague d'argent noirci, gravée de cercles concentriques",
+        "un os de forme inconnue, trop long pour un animal",
+        "une pierre au centre percé, qui bourdonne légèrement"
+      ],
+      "meteo": [
+        "Un ciel jaunâtre pèse sur les collines, lourd d'orage.",
+        "Un vent sec et inquiétant balaie la lande pâle.",
+        "Un brouillard blanc s'accroche aux creux des vallons.",
+        "Un ciel clair, mais l'air semble étrangement épais.",
+        "La nuit apporte un silence trop profond pour être naturel."
+      ]
+    },
+    {
+      "nom": "Marais de Salem",
+      "glyphe": ",",
+      "couleur": "magenta",
+      "entree": "Le sol se fait spongieux et un brouillard violacé flotte entre des arbres morts aux branches décharnées.",
+      "adresses": [
+        "la maison au milieu des brumes",
+        "la chapelle engloutie"
+      ],
+      "lieux": [
+        "Un chemin de rondins s'enfonce dans l'eau noire.",
+        "Un arbre mort, dont les branches ressemblent à des mains, se dresse au centre d'un étang.",
+        "Une île minuscule porte les ruines d'une chapelle engloutie.",
+        "Un bras de marais est parcouru de bulles qui remontent lentement.",
+        "Une cabane sur pilotis, vide, domine un chenal sombre.",
+        "Un sentier de piquets mène vers un horizon que la brume refuse de montrer."
+      ],
+      "ambiance": [
+        "Un bruit de succion lent se fait entendre quelque part sous la surface.",
+        "Des feux follets bleutés dansent au-dessus de l'eau.",
+        "L'odeur de la vase et de la pourriture est presque palpable.",
+        "Des cris de crapauds s'arrêtent d'un seul coup à l'approche du voyageur.",
+        "Un reflet fugace laisse croire à un visage sous l'eau, puis plus rien.",
+        "Le brouillard étouffe tout, jusqu'au son de sa propre voix."
+      ],
+      "rencontres": [
+        "Un passeur en capuche tend une main osseuse pour réclamer une pièce.",
+        "Une vieille femme vend des herbes dont elle refuse de dire le nom.",
+        "Un chasseur de sangsues remonte de la vase, couvert de boue.",
+        "Une silhouette au loin répète un geste à l'infini.",
+        "Un homme égaré affirme n'avoir jamais quitté ce marais."
+      ],
+      "trouvailles": [
+        "une fiole bouchée contenant un liquide trouble",
+        "une médaille de bronze, gravée de signes sinueux",
+        "une plume noire, froide au toucher",
+        "une chaîne rouillée, accrochée à un anneau sans cadenas",
+        "un crâne d'oiseau, plus gros que n'importe quel oiseau"
+      ],
+      "meteo": [
+        "Un brouillard violacé s'élève du marais à la tombée du jour.",
+        "L'air lourd et humide colle aux vêtements.",
+        "Une pluie fine, tiède, tombe sans bruit sur l'eau.",
+        "Un ciel orageux, d'un gris-vert maladif, s'étire sur les roseaux.",
+        "Une lune pâle se reflète, déformée, dans l'eau noire."
+      ]
+    },
+    {
+      "nom": "Cimetière sans nom",
+      "glyphe": "#",
+      "couleur": "gris_clair",
+      "entree": "Une grille de fer rouillée s'ouvre sur un enclos de pierres tombales à demi enfouies.",
+      "adresses": [
+        "la grille de fer rouillée",
+        "le mausolée de pierre noire"
+      ],
+      "lieux": [
+        "Une allée de gravier mène entre des rangées de stèles penchées.",
+        "Un mausolée de pierre noire s'ouvre sur un escalier plongeant dans l'obscurité.",
+        "Un vieux saule pleure sur une tombe sans inscription.",
+        "Une chapelle en ruines garde un autel couvert de bougies fondues.",
+        "Un caveau à demi effondré laisse échapper un air froid.",
+        "Une stèle isolée est couverte de lichens qui dessinent des visages."
+      ],
+      "ambiance": [
+        "Un souffle froid caresse la nuque, sans cause apparente.",
+        "On entend un grattement très doux sous la terre.",
+        "Les noms gravés sur les pierres changent quand on ne les fixe pas.",
+        "Un corbeau croasse une seule fois, puis se tait.",
+        "L'air est chargé d'une odeur de terre fraîchement remuée.",
+        "Les ombres des croix s'étirent d'une façon qui ne correspond pas au soleil."
+      ],
+      "rencontres": [
+        "Un fossoyeur creuse, sans lever la tête, une tombe dont personne ne parle.",
+        "Un prêtre usé prie à voix basse devant une tombe récente.",
+        "Une jeune veuve dépose des fleurs noires sur une stèle vierge.",
+        "Un étudiant en médecine recopie fébrilement des épitaphes.",
+        "Un vieil homme jure que les morts d'ici refusent de rester tranquilles."
+      ],
+      "trouvailles": [
+        "une médaille de saint, rongée par la terre",
+        "une bague de deuil, gravée d'un nom effacé",
+        "un fragment de pierre tombale portant une date impossible",
+        "une petite clé de cercueil",
+        "une lanterne de fer, froide mais encore allumée"
+      ],
+      "meteo": [
+        "Un brouillard blanc rampe sur les tombes, à hauteur de genou.",
+        "La pluie fait briller les pierres comme des os.",
+        "Un ciel bas, d'un gris de cendre, pèse sur les croix.",
+        "La pleine lune éclaire chaque stèle d'une lueur laiteuse.",
+        "Un vent glacé fait claquer la grille de fer."
+      ]
+    },
+    {
+      "nom": "Montagnes de la folie",
+      "glyphe": "A",
+      "couleur": "cyan_clair",
+      "entree": "Des sommets glacés et noirs se dressent, dont les formes semblent construites plutôt que façonnées.",
+      "adresses": [
+        "le camp de l'expédition abandonnée",
+        "la muraille cyclopéenne"
+      ],
+      "lieux": [
+        "Une crête de glace s'étire vers un ciel d'un blanc aveuglant.",
+        "Un col ouvert entre deux murailles de roche sculptée par on ne sait quoi.",
+        "Un plateau couvert de neige est parcouru de lignes trop régulières.",
+        "Une caverne béante exhale un air étrangement tiède.",
+        "Un campement d'expédition abandonné laisse ses tentes déchirées au vent.",
+        "Une muraille de pierre cyclopéenne émerge à moitié de la glace."
+      ],
+      "ambiance": [
+        "Un sifflement aigu, presque mélodique, résonne dans les crevasses.",
+        "La neige crisse d'un bruit anormalement fort sous les pas.",
+        "L'horizon est d'une netteté glaçante, sans la moindre brume.",
+        "Le silence s'étire, interrompu seulement par un tintement lointain.",
+        "Des formes immobiles semblent se déplacer dès qu'on cesse de les regarder.",
+        "La lumière du soleil prend des teintes inconnues sur la glace."
+      ],
+      "rencontres": [
+        "Un géologue frigorifié répète que les roches n'ont rien de naturel.",
+        "Un explorateur au regard éteint rapporte des notes qu'il n'ose relire.",
+        "Un chien d'expédition refuse d'avancer, les yeux fixés sur la montagne.",
+        "Un pilote épuisé raconte ce qu'il a vu depuis son appareil, puis se tait.",
+        "Un guide inuit refuse d'aller plus loin, sans donner de raison."
+      ],
+      "trouvailles": [
+        "un fragment de pierre sculptée de motifs en étoile",
+        "un cristal de glace où dort une forme minuscule",
+        "un journal d'expédition aux dernières pages arrachées",
+        "un instrument de laiton dont l'aiguille tourne en rond",
+        "un éclat d'un métal inconnu, léger comme du verre"
+      ],
+      "meteo": [
+        "Un vent glacial hurle entre les pics, plus fort qu'il ne devrait.",
+        "Une aurore pâle ondule au-dessus des cimes dans un silence étrange.",
+        "Un blizzard efface le paysage en quelques secondes.",
+        "Un ciel d'un bleu irréel s'étend sur des sommets trop nets.",
+        "Un brouillard givrant s'accroche aux parois sculptées."
+      ]
+    },
+    {
+      "nom": "Souterrains oubliés",
+      "glyphe": "°",
+      "couleur": "rouge",
+      "entree": "Un escalier de pierre humide s'enfonce dans le sol, bien plus loin que la lumière ne peut suivre.",
+      "adresses": [
+        "la bibliothèque aux rayonnages sans fin",
+        "la porte de bronze entrouverte"
+      ],
+      "lieux": [
+        "Un couloir voûté, aux murs couverts de signes, s'étire dans l'obscurité.",
+        "Une salle ronde est ornée d'une fresque qui semble changer à chaque regard.",
+        "Une crypte inondée reflète une voûte dont on n'aperçoit pas la fin.",
+        "Un puits sans fond laisse monter un souffle tiède.",
+        "Une porte de bronze, entrouverte, donne sur un escalier descendant plus bas encore.",
+        "Une galerie étroite débouche sur un lac souterrain d'une eau noire et lisse."
+      ],
+      "ambiance": [
+        "Un goutte-à-goutte régulier rythme les pas, trop régulier pour être naturel.",
+        "Une odeur de moisi et d'encens ancien flotte dans l'air.",
+        "Les murs semblent respirer, très lentement.",
+        "On entend un murmure qui n'est pas celui de l'eau.",
+        "Les torches vacillent sans cause, malgré l'air immobile.",
+        "Un écho répète les mots un instant avant qu'on les prononce."
+      ],
+      "rencontres": [
+        "Un archéologue à demi fou grave frénétiquement des symboles sur la pierre.",
+        "Un moine au visage voilé psalmodie dans un coin de la salle.",
+        "Un mineur égaré affirme être descendu ici depuis des jours.",
+        "Une silhouette voûtée tient une lanterne et marche à reculons.",
+        "Un rat au pelage clair fixe le voyageur avec un calme déroutant."
+      ],
+      "trouvailles": [
+        "une lanterne qui brûle sans huile",
+        "une tablette d'argile couverte de signes inconnus",
+        "une statuette difforme, étrangement lourde",
+        "un fragment de miroir noir qui ne reflète rien",
+        "un livre sans titre, dont les pages sont tièdes"
+      ],
+      "meteo": [
+        "L'air est humide, tiède, et sent la terre ancienne.",
+        "Un courant d'air froid monte d'un puits invisible.",
+        "Une moiteur étouffante colle aux vêtements.",
+        "L'obscurité est si complète qu'elle semble peser.",
+        "Un grondement lointain fait trembler les parois."
+      ]
+    }
+  ]
+}

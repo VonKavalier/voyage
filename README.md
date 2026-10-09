@@ -88,8 +88,6 @@ Il apparaît alors dans le menu du premier lancement. Le nom du fichier sert d'i
 ```jsonc
 {
   "nom": "Mon univers",                    // affiché dans le menu
-  "departs": ["..."],                      // « Départ : ... »
-  "destinations": ["..."],                 // « Destination : ... »
   "arrivee": "Phrase finale.",
   "chargement": ["Le sentier se précise..."],   // messages du faux chargement
   "meteo": ["Phrase complète."],
@@ -99,6 +97,7 @@ Il apparaît alors dans le menu du premier lancement. Le nom du fichier sert d'i
       "glyphe": "\"",                      // 1 caractère, différent de . o @ X
       "couleur": "vert",                   // voir ci-dessous
       "entree": "Phrase quand on entre dans la région.",
+      "adresses": ["..."],                 // lieux qui servent pour le départ et l'arrivée du voyage
       "lieux": ["Phrase complète."],
       "ambiance": ["Phrase complète."],
       "rencontres": ["Phrase complète."],

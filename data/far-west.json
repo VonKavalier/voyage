@@ -1,0 +1,428 @@
+{
+  "nom": "Far-West",
+  "arrivee": "La piste prend fin. On met pied à terre, on retire son chapeau, et l'on savoure un moment de calme avant de pousser la porte.",
+  "chargement": [
+    "Les fers du cheval claquent sur la piste...",
+    "On avance au petit trot, sans se presser...",
+    "On resserre la sangle de la selle...",
+    "Un coup de gourde, puis on repart...",
+    "La poussière se soulève derrière soi...",
+    "On scrute l'horizon sous le bord de son chapeau...",
+    "Le soleil tape, lourd et patient...",
+    "Une chanson sans paroles revient en tête...",
+    "On vérifie la carte, pliée en quatre au fond d'une poche...",
+    "Le vent apporte l'odeur d'un feu de camp lointain..."
+  ],
+  "meteo": [
+    "Le ciel est d'un bleu dur, sans le moindre nuage.",
+    "Le soleil écrase le paysage et fait trembler l'air.",
+    "Un vent chaud soulève des tourbillons de poussière.",
+    "De hauts nuages blancs glissent sans menace.",
+    "Le ciel vire à l'orange, annonçant un soir sans vent.",
+    "Un orage sec gronde au loin, sans jamais éclater.",
+    "L'air est frais, et le ciel s'étire d'un horizon à l'autre.",
+    "Une brume de chaleur brouille les contours de la piste.",
+    "Un vent froid vient de la montagne et fait claquer le manteau.",
+    "Une aube pâle teinte la plaine de rose et d'or."
+  ],
+  "regions": [
+    {
+      "nom": "Désert rouge",
+      "glyphe": ":",
+      "couleur": "jaune",
+      "entree": "La terre devient rouge et nue, et l'horizon tremble sous la chaleur.",
+      "adresses": [
+        "la gare poussiéreuse de Dry Gulch",
+        "la mission de San Isidro"
+      ],
+      "lieux": [
+        "Une piste de sable rouge s'étire entre des buttes isolées.",
+        "Un cactus géant lève ses bras vers le ciel.",
+        "Un puits à sec s'effondre doucement au bord de la piste.",
+        "Un crâne de bœuf blanchi repose au pied d'un rocher.",
+        "Une mesa solitaire domine un océan de sable.",
+        "Un vieux wagon sans roues dort au milieu de nulle part.",
+        "Une oasis minuscule abrite quelques palmiers et une mare verte."
+      ],
+      "ambiance": [
+        "Le silence est total, à peine troublé par le vent.",
+        "Un serpent à sonnette fait entendre son cliquetis dans les pierres.",
+        "L'air sent la sauge sèche et la poussière chaude.",
+        "Un vautour décrit de longs cercles dans le ciel.",
+        "Les sabots du cheval s'enfoncent dans le sable mou.",
+        "Le soleil fait danser un mirage au bout de la piste."
+      ],
+      "rencontres": [
+        "Un vieux chercheur d'or traîne un mulet chargé de sacoches.",
+        "Un cavalier solitaire lève deux doigts pour saluer, sans un mot.",
+        "Un marchand ambulant propose de l'eau à prix d'or.",
+        "Un éclaireur indien lit les traces dans le sable et hoche la tête.",
+        "Une famille de colons pousse son chariot, la bâche trouée de poussière.",
+        "Un prédicateur itinérant agite sa bible en chantant faux."
+      ],
+      "trouvailles": [
+        "un éperon d'argent terni",
+        "une pointe de flèche en pierre rouge",
+        "une cartouche vide, au culot rouillé",
+        "un morceau de cuir tanné, gravé d'initiales",
+        "une pièce d'argent usée, à l'effigie d'une femme",
+        "une plume de vautour, longue et noire"
+      ],
+      "meteo": [
+        "Le soleil de midi écrase tout, et l'ombre devient un luxe.",
+        "Un vent brûlant soulève un rideau de sable fin.",
+        "La nuit tombe vite, et le froid avec elle.",
+        "Un ciel immense, sans un nuage, s'étend d'un bord à l'autre.",
+        "Un orage sec fait claquer le ciel sans lâcher une goutte."
+      ]
+    },
+    {
+      "nom": "Canyon des échos",
+      "glyphe": "V",
+      "couleur": "rouge",
+      "entree": "Le sol s'ouvre, et des parois de roche rouge se dressent de part et d'autre de la piste.",
+      "adresses": [
+        "le relais de diligences de Red Creek",
+        "le canyon du Serpent Sourd"
+      ],
+      "lieux": [
+        "Une piste étroite descend en lacets vers le fond du canyon.",
+        "Un pont de bois branlant enjambe un ravin profond.",
+        "Une rivière à sec dessine un lit de galets blancs entre les parois.",
+        "Une grotte s'ouvre dans la roche, marquée de vieilles peintures.",
+        "Un surplomb offre un abri à l'ombre pour une halte.",
+        "Un éboulis barre en partie le chemin, laissant un étroit passage.",
+        "Une arche de pierre naturelle enjambe la piste."
+      ],
+      "ambiance": [
+        "Chaque pas résonne contre les parois comme un coup de marteau.",
+        "Un faucon lance son cri et l'écho le répète longtemps.",
+        "La roche garde la chaleur du jour jusqu'à la nuit.",
+        "Une lumière rouge et or glisse lentement le long des murs.",
+        "Un filet d'eau suinte d'une paroi et nourrit un buisson de fougères.",
+        "Le vent siffle dans les failles comme dans un instrument."
+      ],
+      "rencontres": [
+        "Un guide indien conduit un groupe de voyageurs en silence.",
+        "Un géologue taille un morceau de roche et note ses observations.",
+        "Un hors-la-loi fatigué surveille la piste depuis un rocher, puis s'éloigne.",
+        "Un photographe installe un lourd trépied au bord de l'abîme.",
+        "Un muletier avance avec patience, chargé de tonneaux.",
+        "Un vieux trappeur raconte l'histoire du canyon à qui veut l'écouter."
+      ],
+      "trouvailles": [
+        "une pierre striée de rouge et d'ocre",
+        "un fragment de poterie ancienne",
+        "une plume de faucon, rousse et fine",
+        "une pointe de lance en obsidienne",
+        "une gourde cabossée, vide depuis longtemps",
+        "un petit fossile en forme de spirale"
+      ],
+      "meteo": [
+        "Une lumière rasante embrase les parois d'un rouge profond.",
+        "L'air au fond du canyon est étouffant, sans un souffle.",
+        "Une averse brutale fait gronder un torrent soudain.",
+        "Un vent frais descend des hauteurs et fait siffler la roche.",
+        "Un ciel étroit, d'un bleu intense, découpe le sommet des parois."
+      ]
+    },
+    {
+      "nom": "Grande prairie",
+      "glyphe": ",",
+      "couleur": "vert",
+      "entree": "Les collines s'aplanissent, et une mer d'herbe haute ondule jusqu'à l'horizon.",
+      "adresses": [
+        "le ranch des Trois Chênes",
+        "le ranch Hartwell"
+      ],
+      "lieux": [
+        "Une piste de terre sèche file droit à travers l'herbe haute.",
+        "Un grand chêne solitaire offre son ombre au milieu de la plaine.",
+        "Une ferme de colons dresse sa cabane de rondins près d'un puits.",
+        "Un troupeau de bisons broute sur une colline lointaine.",
+        "Un petit ruisseau serpente entre des peupliers.",
+        "Un enclos à bétail ouvre ses barrières sur une prairie sans fin.",
+        "Une vieille ligne de télégraphe longe la piste, poteau après poteau."
+      ],
+      "ambiance": [
+        "Le vent couche l'herbe en longues vagues dorées.",
+        "Une alouette chante, invisible, très haut dans le ciel.",
+        "Le beuglement lointain d'un troupeau flotte dans l'air.",
+        "L'odeur d'herbe chaude et de terre sèche monte du sol.",
+        "Les fils du télégraphe bourdonnent dans la brise.",
+        "Le ciel semble immense, presque trop grand."
+      ],
+      "rencontres": [
+        "Un cow-boy rassemble son troupeau en sifflant doucement.",
+        "Un jeune garçon à cheval galope au-devant de la piste, ravi.",
+        "Un fermier laboure en suivant son attelage, le dos courbé.",
+        "Une jeune maîtresse d'école traverse la plaine en buggy.",
+        "Un chasseur de bisons nettoie sa carabine en fredonnant.",
+        "Une famille de colons partage un repas au bord de la piste."
+      ],
+      "trouvailles": [
+        "une fleur sauvage, d'un jaune éclatant",
+        "une plume de colvert",
+        "un fer à cheval presque neuf",
+        "une cartouche de laiton brillant",
+        "un petit morceau de barbelé enroulé",
+        "une pointe de flèche taillée dans un silex gris"
+      ],
+      "meteo": [
+        "Un vent constant fait onduler l'herbe de toute la plaine.",
+        "Un ciel d'un bleu limpide s'étend sans une ombre.",
+        "De gros nuages sombres s'amassent à l'ouest, menaçants.",
+        "Une pluie d'été tombe dru, puis s'arrête aussi vite.",
+        "Le soleil couchant dore l'herbe d'une lumière chaude."
+      ]
+    },
+    {
+      "nom": "Ville de la frontière",
+      "glyphe": "H",
+      "couleur": "gris_clair",
+      "entree": "Des façades de bois en enfilade surgissent le long d'une rue de terre battue.",
+      "adresses": [
+        "le saloon de Dusty Boots",
+        "la ville de Silver Ridge"
+      ],
+      "lieux": [
+        "Un saloon aux portes battantes ouvre sur une rue animée.",
+        "Un bureau du shérif, sa vitrine ornée d'avis de recherche.",
+        "Une forge fume en cadence, dans un tintement de marteau.",
+        "Un magasin général déborde de toiles, de pioches et de barils.",
+        "Une petite église en planches blanches dresse son clocher.",
+        "Une écurie ouverte accueille chevaux et mules de passage.",
+        "Un bureau de poste est flanqué d'un guichet de diligence."
+      ],
+      "ambiance": [
+        "Un piano mécanique joue un air entraînant derrière les portes d'un saloon.",
+        "Les éperons tintent sur le plancher de bois des trottoirs.",
+        "L'odeur du cuir, du tabac et de la bière flotte dans la rue.",
+        "Une poule picore dans la poussière, indifférente à tout.",
+        "Les enseignes grincent en se balançant dans le vent.",
+        "Un chien aboie quelque part, sans conviction."
+      ],
+      "rencontres": [
+        "Un shérif à l'étoile ternie hoche la tête avec méfiance.",
+        "Une chanteuse de saloon fait une pause sur le seuil, un éventail à la main.",
+        "Un joueur de cartes en gilet brodé cherche un adversaire.",
+        "Un forgeron en tablier de cuir lève un fer rougi.",
+        "Un enfant vend des journaux en criant les gros titres.",
+        "Un médecin ambulant propose son élixir, en promettant des miracles."
+      ],
+      "trouvailles": [
+        "un jeton de saloon en laiton",
+        "un journal froissé, vieux de trois jours",
+        "une carte à jouer, un as de pique corné",
+        "une étoile de fer-blanc, cabossée",
+        "une clé de chambre portant un numéro gravé",
+        "un mouchoir brodé aux initiales d'une inconnue"
+      ],
+      "meteo": [
+        "Le soleil brûle les toits de bois et fait craquer les planches.",
+        "Un nuage de poussière monte de la rue après le passage d'une diligence.",
+        "Une pluie lourde transforme la rue en rivière de boue.",
+        "Un vent d'ouest fait claquer les volets et les enseignes.",
+        "Le ciel s'embrase au crépuscule, et les lampes s'allument une à une."
+      ]
+    },
+    {
+      "nom": "Ville fantôme",
+      "glyphe": "#",
+      "couleur": "gris",
+      "entree": "Une rue déserte apparaît, bordée de façades vides dont les fenêtres regardent sans voir.",
+      "adresses": [
+        "le fort abandonné de Fort Hollow",
+        "la ville morte de Dead Pine"
+      ],
+      "lieux": [
+        "Un saloon sans portes laisse échapper un courant d'air plaintif.",
+        "Une banque aux guichets fermés garde un coffre éventré.",
+        "Une rue principale, couverte de sable, s'étire entre des maisons affaissées.",
+        "Un cimetière aux croix de bois penche au bout de la ville.",
+        "Une petite église sans clocher abrite quelques bancs renversés.",
+        "Un puits central, clos de planches, s'effondre doucement.",
+        "Un hôtel à demi effondré garde un escalier qui ne mène plus nulle part."
+      ],
+      "ambiance": [
+        "Un volet claque, seul, dans un vent invisible.",
+        "Le silence est étrange, comme si la ville retenait son souffle.",
+        "Une botte de paille roule au milieu de la rue.",
+        "La poussière recouvre tout d'une couche uniforme et douce.",
+        "Un vieux piano désaccordé laisse échapper une note à chaque courant d'air.",
+        "Quelque part, une enseigne grince sans relâche."
+      ],
+      "rencontres": [
+        "Un vieux gardien affirme qu'il est le dernier habitant.",
+        "Un coyote traverse la rue à pas lents, l'œil méfiant.",
+        "Un photographe immortalise un porche effondré.",
+        "Un jeune couple cherche un abri pour la nuit, la mine anxieuse.",
+        "Un chasseur de reliques fouille la banque, un sac sur l'épaule."
+      ],
+      "trouvailles": [
+        "une montre de gousset arrêtée à midi",
+        "un livre de comptes aux pages jaunies",
+        "un fer à cheval cloué à une porte",
+        "un dé en os, gravé de petits points",
+        "une photographie de famille, délavée",
+        "une clé de coffre, sans coffre"
+      ],
+      "meteo": [
+        "Le vent soulève la poussière en tourbillons fantomatiques.",
+        "Une lune pâle éclaire la rue vide d'une lueur argentée.",
+        "Le soleil blanchit les planches, sans y réveiller aucune vie.",
+        "Un brouillard matinal se glisse entre les maisons béantes.",
+        "Le ciel est couvert, d'un gris plat et sans nuances."
+      ]
+    },
+    {
+      "nom": "Mines abandonnées",
+      "glyphe": "°",
+      "couleur": "magenta",
+      "entree": "Des rails rouillés surgissent du sol et mènent vers la bouche sombre d'une galerie.",
+      "adresses": [
+        "le camp minier de Lucky Strike",
+        "le puits du Vieux Filon"
+      ],
+      "lieux": [
+        "L'entrée d'une galerie étayée de poutres vermoulues bâille sur le noir.",
+        "Un wagonnet renversé repose au bout d'une voie rouillée.",
+        "Un chevalet de bois domine un puits d'extraction envahi de ronces.",
+        "Un campement de mineurs aux tentes pourries entoure un vieux feu.",
+        "Une cabane de pointage croule sous les planches.",
+        "Un ruisseau jaunâtre s'écoule d'un tunnel inondé.",
+        "Un tas de déblais forme une colline grise au pied de la montagne."
+      ],
+      "ambiance": [
+        "Un goutte-à-goutte régulier résonne dans le noir.",
+        "Une odeur de métal et de terre humide s'échappe de la galerie.",
+        "Le vent siffle dans l'entrée comme dans un tuyau d'orgue.",
+        "On entend le craquement lointain d'un étai qui cède.",
+        "Un oiseau de nuit s'envole de la galerie en un bruissement.",
+        "La poussière brille dans un rai de lumière qui tombe du plafond."
+      ],
+      "rencontres": [
+        "Un vieux mineur ne parle que de la veine qu'il n'a jamais trouvée.",
+        "Un jeune ingénieur sonde les parois, un carnet à la main.",
+        "Un chercheur d'or tamise du gravier à la rivière.",
+        "Un vendeur de cartes prétend connaître la mine perdue de Gideon.",
+        "Un couple d'aventuriers hésite devant l'entrée d'un tunnel."
+      ],
+      "trouvailles": [
+        "une pépite d'un jaune presque trop pur",
+        "une lampe de mineur cabossée",
+        "un pic au manche rongé",
+        "un morceau de quartz veiné d'argent",
+        "une médaille de saint patron des mineurs",
+        "un coin de papier avec un plan à demi effacé"
+      ],
+      "meteo": [
+        "L'air est frais et sec à l'entrée de la galerie.",
+        "Une pluie d'orage dévale la pente et ruisselle dans les galeries.",
+        "Le soleil brille sur les tas de déblais gris, sans les réchauffer.",
+        "Le vent descend de la montagne, chargé de poussière minérale.",
+        "Un ciel bas pèse sur les chevalets rouillés."
+      ]
+    },
+    {
+      "nom": "Montagnes Rocheuses",
+      "glyphe": "A",
+      "couleur": "cyan_clair",
+      "entree": "Le terrain se relève, des pins s'accrochent aux pentes, et des sommets neigeux apparaissent.",
+      "adresses": [
+        "le col de la Dernière Chance",
+        "la cabane du vieux trappeur Jeb"
+      ],
+      "lieux": [
+        "Un sentier de mule grimpe en lacets à travers une forêt de pins.",
+        "Un lac d'altitude reflète les sommets enneigés.",
+        "Une cabane de trappeur est nichée près d'une source.",
+        "Un col venteux s'ouvre sur une vallée lointaine.",
+        "Une cascade tombe d'une falaise dans un bassin vert.",
+        "Un pont de rondins franchit un torrent grondant.",
+        "Une prairie d'altitude, parsemée de fleurs, repose sous les cimes."
+      ],
+      "ambiance": [
+        "L'air est vif et sent la résine de pin.",
+        "Un aigle plane au-dessus des crêtes, indifférent.",
+        "Le torrent gronde, loin en contrebas.",
+        "Un craquement de branche trahit un ours ou un cerf invisible.",
+        "La neige fondue goutte des branches en un rythme régulier.",
+        "Le silence des hauteurs écrase les sons du monde."
+      ],
+      "rencontres": [
+        "Un trappeur barbu sort de sa cabane et salue de sa pipe.",
+        "Un cavalier de la poste monte au galop, sacoche au flanc.",
+        "Un éclaireur en peau de daim guide une expédition.",
+        "Un vieil homme pêche dans le lac, sans se soucier du froid.",
+        "Un prêtre itinérant bénit les voyageurs d'un geste las.",
+        "Un chasseur redescend avec un daim sur les épaules."
+      ],
+      "trouvailles": [
+        "une pomme de pin géante",
+        "une plume de pic, noire et rouge",
+        "une pierre veinée de mica scintillant",
+        "une dent d'élan, gravée d'un motif ancien",
+        "une fleur de montagne séchée dans un carnet",
+        "un anneau de fer forgé à la main"
+      ],
+      "meteo": [
+        "L'air est froid et limpide, avec une lumière éblouissante.",
+        "Un brouillard dense avale les sentiers et les sommets.",
+        "Une neige légère tombe en flocons lourds et silencieux.",
+        "Un vent glacial descend des cimes et fait craquer les pins.",
+        "Le soleil perce enfin et fait étinceler la neige."
+      ]
+    },
+    {
+      "nom": "Rives du grand fleuve",
+      "glyphe": "~",
+      "couleur": "cyan",
+      "entree": "Une odeur de limon et d'eau fraîche se mêle à l'air, et un large fleuve brun apparaît.",
+      "adresses": [
+        "le comptoir de commerce de Stillwater",
+        "l'embarcadère de Paddle Landing"
+      ],
+      "lieux": [
+        "Un ponton de bois grince sous le poids d'un embarcadère.",
+        "Un bac à câble traverse le fleuve en lentes oscillations.",
+        "Un bateau à aubes accoste, crachant un long panache de fumée.",
+        "Une berge de saules pleureurs descend jusqu'à l'eau.",
+        "Un petit pont de chemin de fer enjambe le courant.",
+        "Un gué d'eau peu profonde permet de traverser à cheval.",
+        "Une cabane de pêcheur sur pilotis surplombe la rive."
+      ],
+      "ambiance": [
+        "Le sifflet d'un bateau à vapeur retentit au loin.",
+        "Les grenouilles-taureaux coassent à l'unisson dans les roseaux.",
+        "L'eau brune charrie des branches et des feuilles.",
+        "L'odeur du poisson grillé monte d'un feu de berge.",
+        "Un héron s'envole lourdement, les pattes pendantes.",
+        "Le fleuve coule sans hâte, indifférent à ceux qui le traversent."
+      ],
+      "rencontres": [
+        "Un passeur au chapeau de paille donne un coup de perche sans un mot.",
+        "Un joueur de cartes professionnel descend d'un bateau à aubes.",
+        "Un pêcheur de poissons-chats vend sa prise à la criée.",
+        "Une lavandière chante en frottant son linge sur une planche.",
+        "Un vieux capitaine raconte comment il a vu le fleuve sortir de son lit.",
+        "Un jeune garçon se baigne, riant, sous l'œil indulgent de sa mère."
+      ],
+      "trouvailles": [
+        "un galet plat, parfait pour ricocher",
+        "une plume de héron cendré",
+        "un hameçon forgé à la main",
+        "un petit coquillage d'eau douce",
+        "un bout de corde noué d'un nœud marin",
+        "une bouteille de verre épais, bouchée de cire"
+      ],
+      "meteo": [
+        "Une brume dense monte du fleuve au petit matin.",
+        "Le soleil dore l'eau brune d'un éclat chaud.",
+        "Une averse tiède tombe en gouttes lourdes sur les rives.",
+        "Un vent tiède souffle sur l'eau et fait frémir les saules.",
+        "Le ciel se reflète sur le fleuve, large et calme."
+      ]
+    }
+  ]
+}

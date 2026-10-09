@@ -1,15 +1,5 @@
 {
   "nom": "Réaliste",
-  "departs": [
-    "un petit village de vallée",
-    "la gare d'un bourg tranquille",
-    "le bout d'une rue de faubourg"
-  ],
-  "destinations": [
-    "un refuge au pied d'un col",
-    "une anse de galets au bout du sentier",
-    "un belvédère sur la vallée"
-  ],
   "arrivee": "Le trajet est terminé. On s'assoit un moment, content d'être là, sans rien attendre de plus.",
   "chargement": [
     "Le chemin se dessine peu à peu...",
@@ -17,7 +7,11 @@
     "On vérifie la route sur la carte...",
     "Un instant de pause, une gorgée d'eau...",
     "Le paysage change doucement...",
-    "Les pensées vagabondent un moment..."
+    "Les pensées vagabondent un moment...",
+    "On resserre les lacets de ses chaussures...",
+    "Le sac pèse un peu plus à chaque kilomètre...",
+    "On ralentit pour regarder autour de soi...",
+    "Les jambes trouvent leur rythme, sans effort..."
   ],
   "meteo": [
     "Le ciel est dégagé, la lumière franche.",
@@ -25,7 +19,11 @@
     "Une bruine légère donne aux choses un air de velours.",
     "Le ciel est gris perle, uniforme et calme.",
     "Un vent doux soulève un peu de poussière.",
-    "Il fait doux, juste ce qu'il faut."
+    "Il fait doux, juste ce qu'il faut.",
+    "Le soleil perce par intermittence entre deux nuages.",
+    "L'air est frais et sent la pluie de la veille.",
+    "Une brume légère s'attarde sur les creux du paysage.",
+    "La chaleur monte doucement, sans devenir pesante."
   ],
   "regions": [
     {
@@ -33,26 +31,49 @@
       "glyphe": "#",
       "couleur": "gris",
       "entree": "On quitte les grands axes pour des rues plus tranquilles.",
+	  "adresses": [
+		"le square du Platane",
+		"la petite place du café"
+	  ],
       "lieux": [
         "On longe une rangée de façades aux volets clos.",
         "Un petit square, avec un banc et un platane, borde le chemin.",
         "Une boulangerie ouvre sa vitrine à l'angle de la rue.",
-        "Un passage piéton traverse une avenue étonnamment vide."
+        "Un passage piéton traverse une avenue étonnamment vide.",
+        "Une ruelle pavée passe entre deux murs couverts de lierre.",
+        "Une petite place accueille un café et trois tables en terrasse.",
+        "Un escalier de pierre descend vers une rue plus basse."
       ],
       "ambiance": [
         "Le bruit de la ville s'éloigne par couches successives.",
         "Une odeur de café flotte depuis une fenêtre ouverte.",
-        "Les pas résonnent doucement sur le trottoir."
+        "Les pas résonnent doucement sur le trottoir.",
+        "Une radio joue en sourdine derrière un rideau.",
+        "Un linge blanc sèche en claquant doucement sur un fil.",
+        "Une cloche d'église sonne l'heure au loin."
       ],
       "rencontres": [
         "Un facteur salue d'un geste en poussant son vélo.",
         "Un chat dort sur le rebord d'une fenêtre.",
-        "Une vieille dame arrose ses géraniums sur son balcon."
+        "Une vieille dame arrose ses géraniums sur son balcon.",
+        "Un enfant rentre de l'école, cartable sur le dos.",
+        "Un homme lit son journal sur le pas de sa porte.",
+        "Un livreur cherche un numéro de rue en plissant les yeux."
       ],
       "trouvailles": [
         "un ticket de métro oublié",
         "une feuille de platane parfaitement dentelée",
-        "un bouchon de liège"
+        "un bouchon de liège",
+        "une craie de couleur, cassée en deux",
+        "un petit bouton de nacre",
+        "une pièce de monnaie sur le trottoir"
+      ],
+      "meteo": [
+        "Les pavés brillent après une courte averse.",
+        "Un rayon de soleil glisse entre deux immeubles.",
+        "L'air est immobile, légèrement tiède.",
+        "Le ciel gris donne aux façades une teinte douce.",
+        "Un vent frais s'engouffre dans les rues étroites."
       ]
     },
     {
@@ -60,26 +81,48 @@
       "glyphe": ",",
       "couleur": "vert",
       "entree": "Les dernières maisons s'effacent et la campagne s'ouvre.",
+	  "adresses": [
+		"la ferme de Beaumont au bout de l'allée de tilleuls"
+      ],
       "lieux": [
         "Un chemin de terre longe un champ de blé encore vert.",
         "Une ferme isolée dresse son toit au bout d'une allée de tilleuls.",
         "Une petite route déserte file entre deux haies.",
-        "Un petit pont enjambe un fossé où l'eau court."
+        "Un petit pont enjambe un fossé où l'eau court.",
+        "Un champ de tournesols tourne ses têtes vers le soleil.",
+        "Un vieux puits en pierre garde le coin d'un pré.",
+        "Une meule de foin se dresse au milieu d'un champ moissonné."
       ],
       "ambiance": [
         "Des hirondelles rasent les blés à toute vitesse.",
         "Le vent apporte l'odeur du foin coupé.",
-        "Un tracteur ronronne au loin, sans jamais se rapprocher."
+        "Un tracteur ronronne au loin, sans jamais se rapprocher.",
+        "Les grillons chantent dans l'herbe haute.",
+        "Un coq lance son cri, quelque part derrière les arbres.",
+        "La terre sèche craque doucement sous les semelles."
       ],
       "rencontres": [
         "Un agriculteur lève la main depuis la cabine de son tracteur.",
         "Un chien de ferme accompagne un moment, puis rebrousse chemin.",
-        "Des vaches lèvent la tête, puis se désintéressent de tout."
+        "Des vaches lèvent la tête, puis se désintéressent de tout.",
+        "Une jeune femme répare une clôture en sifflotant.",
+        "Un cycliste en maillot fatigué fait un signe de la main.",
+        "Un vieux monsieur vend des œufs devant sa ferme."
       ],
       "trouvailles": [
         "un épi de blé doré",
         "une plume de buse",
-        "un petit caillou blanc"
+        "un petit caillou blanc",
+        "un fer à cheval rouillé",
+        "une coquille d'escargot vide",
+        "une fleur de bleuet, un peu froissée"
+      ],
+      "meteo": [
+        "Le soleil tape sur les champs et fait trembler l'air.",
+        "Un grand ciel bleu s'étale sans un nuage.",
+        "Un orage lointain gronde derrière l'horizon.",
+        "Le vent courbe les blés en longues vagues.",
+        "La rosée perle encore sur l'herbe des talus."
       ]
     },
     {
@@ -87,26 +130,49 @@
       "glyphe": "\"",
       "couleur": "vert",
       "entree": "Le chemin s'enfonce sous les arbres, et la température baisse d'un cran.",
+	  "adresses": [
+		"la clairière des hêtres",
+		"le tronc couché au bord du sentier"
+	],
       "lieux": [
         "Un sentier forestier serpente entre des hêtres élancés.",
         "Un tapis de feuilles mortes étouffe chaque pas.",
         "Une clairière ensoleillée interrompt le couvert des arbres.",
-        "Un tronc couché sert de banc au bord du chemin."
+        "Un tronc couché sert de banc au bord du chemin.",
+        "Un ruisseau minuscule se faufile entre les racines.",
+        "Une cabane de bûcheron, fermée, rouille doucement sous les fougères.",
+        "Un talus couvert de mousse borde le chemin."
       ],
       "ambiance": [
         "Un pic tambourine quelque part dans les arbres.",
         "La lumière filtre en taches mouvantes sur le sol.",
-        "L'air est frais et sent la mousse."
+        "L'air est frais et sent la mousse.",
+        "Une branche craque, puis tout redevient silencieux.",
+        "Le feuillage frémit sans qu'on sente de vent.",
+        "Des champignons discrets poussent au pied d'un vieux chêne."
       ],
       "rencontres": [
         "Un randonneur croisé échange un bonjour discret.",
         "Un écureuil file le long d'un tronc.",
-        "Un coureur passe, concentré, puis disparaît entre les arbres."
+        "Un coureur passe, concentré, puis disparaît entre les arbres.",
+        "Un cueilleur de champignons inspecte son panier, l'air satisfait.",
+        "Un forestier marque des troncs avec un pinceau de peinture.",
+        "Un chevreuil lève la tête, puis s'éloigne sans bruit."
       ],
       "trouvailles": [
         "une pomme de pin intacte",
         "une feuille de chêne rousse",
-        "une petite plume bleue"
+        "une petite plume bleue",
+        "une châtaigne luisante",
+        "une écorce de bouleau enroulée",
+        "un gland encore coiffé de son chapeau"
+      ],
+      "meteo": [
+        "Un rayon de soleil traverse le feuillage en colonnes dorées.",
+        "L'air sous les arbres est plus frais qu'ailleurs.",
+        "Une pluie fine s'égoutte des feuilles longtemps après l'averse.",
+        "Une brume légère flotte entre les troncs.",
+        "Le vent se contente de faire murmurer la cime des arbres."
       ]
     },
     {
@@ -114,26 +180,48 @@
       "glyphe": "~",
       "couleur": "cyan",
       "entree": "Une rivière apparaît, et le chemin se met à la suivre.",
+	  "adresses": [
+		"le banc des vieux pêcheurs"
+	  ],
       "lieux": [
         "Le chemin de halage longe l'eau lente.",
         "Une passerelle métallique traverse la rivière dans un léger grincement.",
         "Un vieux pont de pierre dessine trois arches parfaites.",
-        "Un banc face à l'eau attend quelqu'un."
+        "Un banc face à l'eau attend quelqu'un.",
+        "Une petite écluse retient l'eau, calme et verte.",
+        "Un moulin en pierre s'appuie sur une chute d'eau basse.",
+        "Une grève de sable fin s'avance dans un méandre."
       ],
       "ambiance": [
         "Des libellules glissent au-dessus des roseaux.",
         "Le courant fait un bruit constant, presque apaisant.",
-        "Les reflets des arbres ondulent à la surface."
+        "Les reflets des arbres ondulent à la surface.",
+        "Une odeur de vase et d'herbe mouillée flotte dans l'air.",
+        "Un poisson saute, puis la surface se referme.",
+        "Les saules plongent leurs branches dans l'eau."
       ],
       "rencontres": [
         "Un pêcheur patiente, immobile, sous son grand chapeau.",
         "Un cycliste passe en faisant tinter sa sonnette.",
-        "Des canards suivent la berge, sans aucune urgence."
+        "Des canards suivent la berge, sans aucune urgence.",
+        "Un couple pique-nique sur un petit ponton de bois.",
+        "Un enfant lance des cailloux pour les faire ricocher.",
+        "Un kayakiste glisse en silence et salue d'un mouvement de pagaie."
       ],
       "trouvailles": [
         "un galet gris, plat et lisse",
         "une plume de canard",
-        "un petit morceau de verre poli"
+        "un petit morceau de verre poli",
+        "une coquille de moule d'eau douce",
+        "un bout de bois flotté",
+        "un hameçon rouillé, sans fil"
+      ],
+      "meteo": [
+        "Une fine brume monte de l'eau au petit matin.",
+        "Le soleil fait scintiller la rivière en milliers d'éclats.",
+        "L'air près de l'eau est frais malgré la chaleur du jour.",
+        "Un ciel gris se reflète à l'identique sur l'eau immobile.",
+        "Une brise légère ride la surface de la rivière."
       ]
     },
     {
@@ -141,26 +229,49 @@
       "glyphe": "n",
       "couleur": "jaune",
       "entree": "Le terrain se relève en douces collines.",
+	  "adresses": [
+		"le muret de Fontaine à flanc de pente",
+		"le banc du Belvédère face aux vallons"
+      ],
       "lieux": [
         "Un chemin de crête offre une vue dégagée sur les vallons.",
         "Un muret de pierres sèches court à flanc de colline.",
         "Un vieux lavoir moussu dort au creux d'un hameau.",
-        "Un banc solitaire fait face au panorama."
+        "Un banc solitaire fait face au panorama.",
+        "Un champ de lavande dessine des lignes violettes sur la pente.",
+        "Une vieille croix de pierre marque un carrefour de sentiers.",
+        "Un verger d'oliviers s'étage sur une terrasse."
       ],
       "ambiance": [
         "Le vent frais balaie les herbes hautes.",
         "Des cloches de troupeau tintent au loin.",
-        "L'horizon s'étire en plusieurs plans bleutés."
+        "L'horizon s'étire en plusieurs plans bleutés.",
+        "Les cigales chantent sans discontinuer dans les pins.",
+        "L'odeur du thym chauffé par le soleil flotte sur le chemin.",
+        "Un faucon décrit de grands cercles dans le ciel."
       ],
       "rencontres": [
         "Un berger discute à voix basse avec son chien.",
         "Un couple de marcheurs déplie une carte dans le vent.",
-        "Un parapente dessine de lents cercles dans le ciel."
+        "Un parapente dessine de lents cercles dans le ciel.",
+        "Un apiculteur ouvre une ruche, sans se presser.",
+        "Une famille s'arrête pour pique-niquer à l'ombre d'un chêne.",
+        "Un photographe attend patiemment la bonne lumière."
       ],
       "trouvailles": [
         "une pierre blanche, anguleuse",
         "un brin de thym sauvage",
-        "une bogue de châtaigne vide"
+        "une bogue de châtaigne vide",
+        "un petit bouquet de lavande séchée",
+        "une plume de faucon",
+        "un fossile de coquillage dans un caillou"
+      ],
+      "meteo": [
+        "La lumière dorée de fin d'après-midi étire les ombres.",
+        "Un vent sec et chaud monte de la vallée.",
+        "De grands nuages projettent des taches mobiles sur les collines.",
+        "L'air est limpide et les horizons semblent plus proches.",
+        "Une légère brume bleutée adoucit les lointains."
       ]
     },
     {
@@ -168,26 +279,147 @@
       "glyphe": "=",
       "couleur": "cyan_clair",
       "entree": "Le vent change : il sent le sel, la mer n'est plus loin.",
+	  "adresses": [
+		"le phare au bout du chemin de sable",
+		"la crique de l'Anse-Verte entre les rochers"
+      ],
       "lieux": [
         "Un sentier douanier longe le haut de la côte.",
         "Une plage de galets s'étire jusqu'à une pointe rocheuse.",
         "Un phare blanc se dresse au bout d'un chemin de sable.",
-        "Des dunes couvertes d'oyats ondulent de chaque côté."
+        "Des dunes couvertes d'oyats ondulent de chaque côté.",
+        "Un petit port abrite quelques bateaux de pêche colorés.",
+        "Une crique étroite s'ouvre entre deux rochers.",
+        "Une jetée de pierre s'avance au milieu des vagues."
       ],
       "ambiance": [
         "Les vagues roulent les galets avec un bruit de papier froissé.",
         "Les goélands crient et se disputent un rocher.",
-        "Le sel colle doucement à la peau."
+        "Le sel colle doucement à la peau.",
+        "Les cordages des bateaux tintent contre les mâts.",
+        "L'odeur d'iode et d'algues emplit l'air.",
+        "La marée laisse derrière elle une dentelle d'écume."
       ],
       "rencontres": [
         "Un pêcheur à pied remonte ses filets avec lenteur.",
         "Un enfant construit un château de sable avec le plus grand sérieux.",
-        "Un vieux monsieur sourit en regardant l'horizon."
+        "Un vieux monsieur sourit en regardant l'horizon.",
+        "Une marcheuse ramasse des coquillages dans un seau.",
+        "Un pêcheur répare un filet sur le quai.",
+        "Un chien court dans l'écume, fou de joie."
       ],
       "trouvailles": [
         "un coquillage nacré",
         "une pierre percée",
-        "un morceau de corde usé par l'eau"
+        "un morceau de corde usé par l'eau",
+        "un morceau de verre dépoli, vert pâle",
+        "une carapace de crabe vide",
+        "un petit morceau de bois flotté blanchi par le sel"
+      ],
+      "meteo": [
+        "Un vent salé souffle en rafales irrégulières.",
+        "Le ciel est immense et la mer d'un bleu intense.",
+        "Un voile de brume marine efface la ligne d'horizon.",
+        "La marée basse dévoile de longues étendues de sable brillant.",
+        "De gros nuages gris roulent au large sans jamais arriver."
+      ]
+    },
+    {
+      "nom": "Village de pierre",
+      "glyphe": "H",
+      "couleur": "gris_clair",
+      "entree": "Quelques toits de lauzes apparaissent, groupés autour d'un clocher modeste.",
+	  "adresses": [
+		"la ruelle de la Poste qui grimpe entre les maisons",
+		"le lavoir du Clair-Ruisseau au creux du hameau"
+	  ],
+      "lieux": [
+        "Une ruelle étroite grimpe entre des maisons de pierre grise.",
+        "Une fontaine publique coule sans interruption sur la place.",
+        "Un lavoir couvert abrite un bassin d'eau claire.",
+        "Une petite église aux murs épais ouvre sa porte de bois.",
+        "Un four à pain communal se dresse au bout d'une impasse.",
+        "Une cour de ferme ouvre sur des étables vides."
+      ],
+      "ambiance": [
+        "Une odeur de feu de bois sort d'une cheminée.",
+        "Une cloche sonne, grave et lente, à travers les ruelles.",
+        "Un volet claque doucement dans le courant d'air.",
+        "L'eau de la fontaine fait un murmure continu.",
+        "Une télévision allumée se devine derrière un rideau.",
+        "Les murs gardent la fraîcheur même en plein midi."
+      ],
+      "rencontres": [
+        "Une femme balaie son seuil en saluant d'un hochement de tête.",
+        "Un vieil homme est assis sur un banc, canne entre les genoux.",
+        "Un boulanger installe ses pains dans une camionnette.",
+        "Un chat gris guette depuis un mur de pierre.",
+        "Un maçon restaure une façade avec une patience infinie.",
+        "Un facteur dépose des lettres dans une boîte de bois."
+      ],
+      "trouvailles": [
+        "une clé de cave rouillée",
+        "un morceau de tuile ancienne",
+        "un petit caillou noir lisse",
+        "une carte postale jaunie",
+        "un clou forgé à la main",
+        "un petit objet en bois sculpté"
+      ],
+      "meteo": [
+        "Le soleil réchauffe lentement les murs de pierre.",
+        "Une ombre fraîche s'étend dans les ruelles en pente.",
+        "La fumée des cheminées monte droit dans l'air immobile.",
+        "Un orage d'été lave les toits en quelques minutes.",
+        "Un matin clair éclaire les façades d'une lumière blonde."
+      ]
+    },
+    {
+      "nom": "Haute montagne",
+      "glyphe": "^",
+      "couleur": "gris_clair",
+      "entree": "Les arbres se raréfient, l'air devient plus mince, et les sommets apparaissent.",
+	  "adresses": [
+		"le col du Ventou entre les deux sommets",
+		"le Gîte des Trois Fleurs"
+	  ],
+      "lieux": [
+        "Un sentier en lacets grimpe à travers un éboulis de pierres claires.",
+        "Un lac d'altitude reflète les sommets environnants.",
+        "Un névé s'attarde à l'ombre d'un rocher.",
+        "Une passerelle de bois enjambe un torrent grondant.",
+        "Un pâturage d'altitude s'étend sous une paroi de roche.",
+        "Un petit col s'ouvre sur une autre vallée."
+      ],
+      "ambiance": [
+        "Le souffle devient plus court à chaque pente.",
+        "Un sifflement de marmotte retentit dans les rochers.",
+        "Le torrent gronde, loin en contrebas.",
+        "Le silence des altitudes est à peine troublé par le vent.",
+        "L'odeur de pierre froide se mêle à celle des herbes d'altitude.",
+        "Des clochettes de vaches résonnent en contrebas."
+      ],
+      "rencontres": [
+        "Un randonneur aguerri salue sans ralentir.",
+        "Un bouquetin immobile observe depuis une corniche.",
+        "Un berger redescend avec un agneau sur les épaules.",
+        "Un alpiniste attend un coéquipier près d'un cairn.",
+        "Un garde du parc note des observations dans un carnet.",
+        "Un couple s'arrête pour reprendre son souffle, un sourire aux lèvres."
+      ],
+      "trouvailles": [
+        "une pierre veinée de quartz",
+        "une edelweiss séchée, tombée d'un carnet",
+        "une plume d'aigle, grise et longue",
+        "un petit cairn de trois pierres",
+        "un bout de ficelle rouge de balisage",
+        "un caillou rond, poli par un torrent"
+      ],
+      "meteo": [
+        "L'air est vif et le ciel d'un bleu profond.",
+        "Des nuages s'accrochent aux sommets sans descendre.",
+        "Un vent froid balaie la crête.",
+        "Un brouillard dense avale le sentier à dix mètres.",
+        "Le soleil brille fort, mais la chaleur ne dure pas."
       ]
     }
   ]

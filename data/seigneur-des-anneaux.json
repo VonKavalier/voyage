@@ -1,25 +1,5 @@
 {
   "nom": "Seigneur des anneaux",
-  "departs": [
-    "le Comté",
-    "l'auberge du Poney Fringant",
-    "Fondcombe",
-    "la lisière de la Lothlórien",
-    "Edoras",
-    "Minas Tirith",
-    "la ville de Dale",
-    "Dol Amroth"
-  ],
-  "destinations": [
-    "les Havres Gris",
-    "Erebor, la Montagne Solitaire",
-    "le Gouffre de Helm",
-    "le Mont Venteux",
-    "la Tour d'Orthanc",
-    "les Collines de Fer",
-    "le Gué de Bruinen",
-    "les Champs de Pelennor"
-  ],
   "arrivee": "Le voyage prend fin. On dépose son sac, on respire un grand coup, et l'on se dit qu'un bon repas ne serait pas de refus.",
   "chargement": [
     "Le sentier se déroule devant soi...",
@@ -51,6 +31,10 @@
       "glyphe": "\"",
       "couleur": "vert",
       "entree": "Les collines rondes s'étalent, vertes et douces, ponctuées de portes rondes et de cheminées fumantes.",
+      "adresses": [
+        "le Comté",
+        "Hobbitebourg"
+      ],
       "lieux": [
         "Un chemin de terre serpente entre des haies fleuries.",
         "Un vieux moulin tourne paresseusement au bord d'un ruisseau.",
@@ -77,6 +61,13 @@
         "une petite pomme rouge encore chaude",
         "un bouton de manteau en laiton",
         "un brin de menthe sauvage"
+      ],
+      "meteo": [
+        "Le soleil de l'après-midi dore les collines et les haies.",
+        "Une pluie douce tombe sur les champs, bienvenue pour les jardins.",
+        "Une brise tiède porte l'odeur du foin coupé et de la pipe.",
+        "De petits nuages blancs courent au-dessus des vergers.",
+        "Une rosée épaisse perle encore sur l'herbe en plein matin."
       ]
     },
     {
@@ -84,6 +75,10 @@
       "glyphe": "T",
       "couleur": "vert",
       "entree": "Les arbres se referment sur le sentier, immenses et noueux, comme s'ils se penchaient pour observer le voyageur.",
+      "adresses": [
+        "la maison de Tom Bombadil",
+        "la clairière du Vieux Saule"
+      ],
       "lieux": [
         "Les racines forment des marches glissantes dans la pénombre.",
         "Un saule gigantesque étend ses branches au-dessus d'une rivière sombre.",
@@ -107,6 +102,13 @@
         "une branche tordue en forme de bâton de marche",
         "une baie d'un violet intense",
         "un pot de miel à demi vide"
+      ],
+      "meteo": [
+        "Un brouillard vert s'accroche aux branches basses.",
+        "La lumière filtre à peine, fine et verdâtre.",
+        "Une pluie lente goutte des feuilles longtemps après l'averse.",
+        "L'air est immobile, lourd, comme retenu par les arbres.",
+        "Un rayon de soleil perce un instant, puis les branches se referment."
       ]
     },
     {
@@ -114,6 +116,10 @@
       "glyphe": "n",
       "couleur": "jaune",
       "entree": "Une route ancienne croise une autre, et un village tranquille s'étage sur la colline, fumant de toutes ses cheminées.",
+      "adresses": [
+        "l'auberge du Poney Fringant",
+        "la Porte de l'Ouest de Bree"
+      ],
       "lieux": [
         "Une auberge de bois sombre accueille voyageurs et marchands.",
         "Un carrefour de chemins est marqué par un panneau usé.",
@@ -138,6 +144,13 @@
         "une carte griffonnée au dos d'un menu",
         "une pièce d'argent ancienne",
         "une miche de pain encore tiède"
+      ],
+      "meteo": [
+        "Le ciel est dégagé et la fumée des cheminées monte droit.",
+        "Une averse passagère chasse les marchands sous les auvents.",
+        "Un vent frais balaie la place du village.",
+        "Le ciel gris pèse sur les toits, sans pluie.",
+        "Une brume du soir s'étire entre les maisons."
       ]
     },
     {
@@ -145,6 +158,10 @@
       "glyphe": ",",
       "couleur": "magenta",
       "entree": "Les habitations disparaissent, et de vastes collines vides s'étendent de toutes parts sous un ciel immense.",
+      "adresses": [
+        "le Mont Venteux",
+        "les Havres Gris"
+      ],
       "lieux": [
         "Une vieille route romaine se perd dans l'herbe haute.",
         "Un cercle de pierres dressées veille sur un sommet.",
@@ -169,6 +186,13 @@
         "une vieille broche d'argent noircie",
         "un brin de bruyère sèche",
         "une pièce usée, sans visage"
+      ],
+      "meteo": [
+        "Un vent large couche l'herbe en longues vagues.",
+        "De lourds nuages gris roulent sur les collines.",
+        "Une bruine froide mouille la capuche et les bottes.",
+        "Le ciel immense est d'un bleu dur et sans nuage.",
+        "Un brouillard bas noie les tertres et les pierres dressées."
       ]
     },
     {
@@ -176,6 +200,10 @@
       "glyphe": "*",
       "couleur": "cyan_clair",
       "entree": "Une vallée cachée s'ouvre soudain, baignée de lumière douce, traversée de cascades chantantes.",
+      "adresses": [
+        "Fondcombe",
+        "le Gué de Bruinen"
+      ],
       "lieux": [
         "Une salle ouverte donne sur le vallon, parfumée de fleurs.",
         "Un pont de pierre élégant enjambe une rivière claire.",
@@ -200,6 +228,13 @@
         "une feuille dorée, parfaitement conservée",
         "un parchemin à l'écriture élégante",
         "un petit flacon d'eau claire"
+      ],
+      "meteo": [
+        "Une lumière douce baigne la vallée, claire comme au premier matin.",
+        "Une brume légère monte des cascades et voile les terrasses.",
+        "L'air est tiède et parfumé, étrangement calme.",
+        "Une pluie fine tombe en musique sur les feuilles dorées.",
+        "Le soleil du soir rougit les falaises qui bordent le vallon."
       ]
     },
     {
@@ -207,6 +242,10 @@
       "glyphe": "^",
       "couleur": "gris_clair",
       "entree": "Le chemin monte, raide et glacé, vers de hautes cimes pâles où le vent mord le visage.",
+      "adresses": [
+        "le col du Caradhras",
+        "le Haut Passage"
+      ],
       "lieux": [
         "Un col étroit serpente entre deux murs de pierre nue.",
         "Un sentier à flanc de falaise longe un vide vertigineux.",
@@ -231,6 +270,13 @@
         "une pointe de fer rouillée",
         "un gant de laine perdu",
         "une pièce gravée de signes nains"
+      ],
+      "meteo": [
+        "Un vent glacial siffle dans les cols et brûle les joues.",
+        "La neige tombe en rafales, effaçant le sentier.",
+        "Une brume dense avale les cimes et les gouffres.",
+        "Le ciel est d'un bleu dur, et le froid mord malgré le soleil.",
+        "Des nuages bas s'accrochent aux sommets et menacent la neige."
       ]
     },
     {
@@ -238,6 +284,10 @@
       "glyphe": "#",
       "couleur": "gris",
       "entree": "Une porte de pierre s'ouvre sur le noir. L'obscurité semble respirer, lourde et ancienne.",
+      "adresses": [
+        "la Porte de Durin",
+        "le Pont de Khazad-dûm"
+      ],
       "lieux": [
         "Un escalier immense plonge dans les profondeurs de la montagne.",
         "Une grande salle aux piliers brisés s'étend dans le noir.",
@@ -263,8 +313,16 @@
         "une torche presque consumée"
       ],
       "meteo": [
-        "L'air est humide.",
-        "On entend la pluie résonner à l'extérieur, comme un écho."
+        "L'air est immobile, froid et chargé d'une poussière de pierre très ancienne.",
+        "Un courant d'air glacé monte d'un puits invisible et fait vaciller la flamme.",
+        "L'humidité suinte des parois et perle sur la pierre noire.",
+        "Un souffle tiède remonte des profondeurs, porteur d'une odeur de soufre.",
+        "L'air est lourd et stagnant, et la torche brûle avec peine.",
+        "Une brume froide rampe sur le sol des galeries, à hauteur de cheville.",
+        "Un vent sourd passe dans les couloirs, comme un long soupir de la montagne.",
+        "La chaleur monte des forges éteintes, étrangement persistante.",
+        "Une fine poussière de pierre tombe de la voûte à chaque grondement lointain.",
+        "Le froid de la roche pénètre les manteaux, et le souffle se change en buée."
       ]
     },
     {
@@ -272,6 +330,10 @@
       "glyphe": "Y",
       "couleur": "jaune",
       "entree": "Des arbres aux feuilles d'or se dressent, immenses, et la lumière devient douce comme un souvenir.",
+      "adresses": [
+        "la lisière de la Lothlórien",
+        "Caras Galadhon"
+      ],
       "lieux": [
         "Une plateforme de bois s'élève dans les branches d'un grand arbre doré.",
         "Un sentier couvert de feuilles d'or serpente entre les troncs blancs.",
@@ -295,6 +357,13 @@
         "un petit pain léger, enveloppé dans une feuille",
         "une fine corde grise, solide et souple",
         "une fiole de lumière scintillante"
+      ],
+      "meteo": [
+        "Une lumière dorée baigne les troncs blancs, hors du temps.",
+        "Une brume argentée flotte entre les branches.",
+        "Une pluie légère tombe sans mouiller, ou presque.",
+        "L'air est doux comme un printemps qui ne finirait pas.",
+        "Le soir tombe lentement, et les arbres s'allument d'or pâle."
       ]
     },
     {
@@ -302,6 +371,10 @@
       "glyphe": "=",
       "couleur": "cyan",
       "entree": "Un grand fleuve large et calme apparaît, coulant lentement vers le sud entre ses berges verdoyantes.",
+      "adresses": [
+        "les Argonath",
+        "les chutes de Rauros"
+      ],
       "lieux": [
         "Une barque glisse doucement au fil du courant.",
         "Des falaises gigantesques encadrent le fleuve de part et d'autre.",
@@ -325,6 +398,13 @@
         "une plume de héron",
         "un morceau de bois flotté sculpté par l'eau",
         "un petit coquillage nacré"
+      ],
+      "meteo": [
+        "Le fleuve est lisse comme un miroir sous un ciel clair.",
+        "Une brume matinale s'étire sur l'eau.",
+        "Un vent contraire ride la surface et ralentit la barque.",
+        "Une pluie fine pique le fleuve de mille cercles.",
+        "Les nuages se reflètent sur le courant, larges et lents."
       ]
     },
     {
@@ -332,6 +412,10 @@
       "glyphe": "\"",
       "couleur": "jaune",
       "entree": "Les collines s'aplanissent et d'immenses prairies d'herbe haute s'étalent jusqu'à l'horizon.",
+      "adresses": [
+        "Edoras",
+        "le Gouffre de Helm"
+      ],
       "lieux": [
         "Une route poussiéreuse traverse des plaines à perte de vue.",
         "Une grande salle de bois domine une colline verdoyante.",
@@ -356,6 +440,13 @@
         "un éperon d'argent terni",
         "une fleur blanche des tertres",
         "un fer à cheval porte-bonheur"
+      ],
+      "meteo": [
+        "Un vent franc couche l'herbe haute en vagues vertes.",
+        "Le ciel est immense, d'un bleu limpide et sans bornes.",
+        "Des nuages d'orage s'amoncellent à l'horizon, sans hâte.",
+        "Le soleil chauffe la plaine et fait vibrer l'air au loin.",
+        "Une averse brève passe, puis la poussière retombe."
       ]
     },
     {
@@ -363,6 +454,10 @@
       "glyphe": "T",
       "couleur": "vert",
       "entree": "Des arbres d'une taille démesurée se referment sur le chemin, et l'on sent qu'ils sont éveillés.",
+      "adresses": [
+        "la Tour d'Orthanc",
+        "le bois de Derndingle"
+      ],
       "lieux": [
         "Un sentier s'enfonce sous des troncs si larges qu'on peine à en faire le tour.",
         "Une clairière tranquille est baignée d'une lumière verte.",
@@ -386,6 +481,13 @@
         "une gourde d'eau fraîche aux saveurs de forêt",
         "une feuille immense, encore verte",
         "une graine lumineuse"
+      ],
+      "meteo": [
+        "Une humidité épaisse suinte des troncs immenses.",
+        "La brume traîne entre les racines, froide et lente.",
+        "Une pluie lourde tombe sur la canopée sans atteindre le sol.",
+        "Un rayon de soleil vert descend jusqu'à la mousse.",
+        "Le vent se tait, et la forêt semble retenir son souffle."
       ]
     },
     {
@@ -393,6 +495,11 @@
       "glyphe": "M",
       "couleur": "blanc",
       "entree": "Une cité blanche surgit devant le voyageur, bâtie en cercles sur le flanc d'une montagne.",
+      "adresses": [
+        "Minas Tirith",
+        "les Champs de Pelennor",
+        "Dol Amroth"
+      ],
       "lieux": [
         "Une haute porte de pierre s'ouvre sur une rue pavée en pente.",
         "Une place ensoleillée est dominée par un arbre blanc, mort mais vénéré.",
@@ -417,6 +524,13 @@
         "un fragment de statue en marbre blanc",
         "une lettre cachetée, jamais remise",
         "une bague gravée d'une étoile"
+      ],
+      "meteo": [
+        "Le soleil frappe les remparts blancs et les rend éblouissants.",
+        "Un vent chaud monte de la plaine, chargé de poussière.",
+        "Des nuages sombres venus de l'est assombrissent le ciel.",
+        "Une pluie fine lave les pavés et les statues.",
+        "Le ciel est limpide, mais un voile de menace pèse sur l'est."
       ]
     },
     {
@@ -424,6 +538,10 @@
       "glyphe": "\"",
       "couleur": "vert",
       "entree": "Un jardin sauvage s'étend, parfumé d'herbes et de fleurs, comme un dernier répit avant l'ombre.",
+      "adresses": [
+        "Henneth Annûn",
+        "la Croisée du Roi Déchu"
+      ],
       "lieux": [
         "Un sentier couvert d'herbes aromatiques traverse un bois de cèdres.",
         "Une cascade fraîche tombe dans un bassin de pierre.",
@@ -447,6 +565,13 @@
         "une baie rouge comestible",
         "un petit arc de fortune, taillé dans une branche",
         "une pierre plate couverte de lichen"
+      ],
+      "meteo": [
+        "Le soleil tiède réveille le parfum du thym et des cèdres.",
+        "Une averse fraîche tombe sur les fleurs sauvages.",
+        "Une brise légère agite les feuilles des grands arbres.",
+        "Une brume dorée flotte sur les bassins au petit matin.",
+        "Le ciel est clair, mais l'ombre de l'est pèse à l'horizon."
       ]
     },
     {
@@ -454,6 +579,10 @@
       "glyphe": "~",
       "couleur": "bleu",
       "entree": "Le sol devient meuble, et une brume noire avale les contours. L'eau noire cache des visages.",
+      "adresses": [
+        "la Chaussée des Morts",
+        "l'île aux Roseaux Pâles"
+      ],
       "lieux": [
         "Un chemin étroit serpente entre des mares sombres et stagnantes.",
         "Des roseaux pâles plient sous un vent invisible.",
@@ -477,6 +606,13 @@
         "un fragment d'épée ancienne",
         "une plume noire, froide au toucher",
         "un petit flacon bouché, vide"
+      ],
+      "meteo": [
+        "Une brume épaisse efface la chaussée à trois pas.",
+        "L'air est lourd, tiède et chargé d'odeurs de vase.",
+        "Une pluie noire et fine tombe sans un bruit sur l'eau.",
+        "Le ciel est livide, sans soleil ni nuages.",
+        "Le vent tombe, et plus rien ne bouge au-dessus des mares."
       ]
     },
     {
@@ -484,6 +620,10 @@
       "glyphe": "x",
       "couleur": "rouge",
       "entree": "Le ciel se couvre de cendre. L'air devient lourd, sec et âcre, et la terre elle-même semble respirer la menace.",
+      "adresses": [
+        "la Porte Noire",
+        "la Montagne du Destin"
+      ],
       "lieux": [
         "Une plaine de roche noire s'étend sous un ciel rougeoyant.",
         "Un sentier de cendres grises serpente entre des failles fumantes.",
@@ -507,6 +647,13 @@
         "une gourde d'eau fraîche, d'une valeur inestimable",
         "un morceau de pain dur, mais précieux",
         "une pointe de flèche à la forme sinistre"
+      ],
+      "meteo": [
+        "Un ciel bas et rougeoyant écrase la plaine.",
+        "Une pluie de cendres grises tombe sans fin.",
+        "Un vent sec et brûlant soulève la poussière noire.",
+        "Des fumées lourdes s'élèvent de la montagne et cachent le soleil.",
+        "L'air est étouffant et âcre, sans le moindre souffle."
       ]
     }
   ]

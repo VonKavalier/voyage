@@ -1,21 +1,5 @@
 {
   "nom": "Science-fiction",
-  "departs": [
-    "la station orbitale d'Aurore",
-    "le spatioport de Néo-Lisbonne",
-    "la colonie minière de Cérès-Nord",
-    "le quai 9 de la Jonction Kepler",
-    "l'arche dormante d'Erebos",
-    "la base lunaire de Tycho"
-  ],
-  "destinations": [
-    "la Balise de Vega",
-    "l'Observatoire du Dernier Horizon",
-    "la cité-jardin d'Elysium Prime",
-    "la Station Silencieuse de Tau Ceti",
-    "le Carrefour des Mille Routes",
-    "la Forge d'Orion"
-  ],
   "arrivee": "Le vaisseau s'amarre dans un faible choc métallique. Les moteurs s'éteignent, et l'on savoure un instant le silence retrouvé.",
   "chargement": [
     "Les moteurs se mettent en veille...",
@@ -47,6 +31,10 @@
       "glyphe": "*",
       "couleur": "gris_clair",
       "entree": "Les premiers rochers apparaissent, puis des milliers, dérivant lentement dans le noir.",
+      "adresses": [
+        "la Balise de Vega",
+        "la colonie minière de Cérès-Nord"
+      ],
       "lieux": [
         "Le vaisseau se faufile entre des blocs de roche grands comme des immeubles.",
         "Une station minière abandonnée tourne doucement sur elle-même.",
@@ -81,6 +69,10 @@
       "glyphe": "~",
       "couleur": "magenta",
       "entree": "Le noir cède la place à de grands voiles de gaz rose et violet qui baignent la cabine d'une lueur douce.",
+      "adresses": [
+        "le Carrefour des Mille Routes",
+        "l'atelier flottant de Maëlis"
+      ],
       "lieux": [
         "Le vaisseau glisse à travers des nuages de gaz ionisé.",
         "Une pouponnière d'étoiles brille derrière un rideau de poussière.",
@@ -114,6 +106,10 @@
       "glyphe": "=",
       "couleur": "cyan_clair",
       "entree": "Une immense arche de glace et de roche s'étend devant le vaisseau, scintillante comme du givre.",
+      "adresses": [
+        "l'arche dormante d'Erebos",
+        "la Halte des Bergers"
+      ],
       "lieux": [
         "Le vaisseau longe un anneau fait de blocs de glace étincelants.",
         "Un petit satellite berger veille sur la frontière d'un anneau.",
@@ -145,6 +141,10 @@
       "glyphe": "#",
       "couleur": "jaune",
       "entree": "Des carcasses de vaisseaux immenses flottent dans le noir, vestiges d'une époque oubliée.",
+      "adresses": [
+        "la Forge d'Orion",
+        "le Cimetière des Mille Coques"
+      ],
       "lieux": [
         "Une coque d'anciens croiseurs dérive sans équipage, éventrée.",
         "Un cimetière de stations spatiales s'étend sur des milliers de kilomètres.",
@@ -177,6 +177,10 @@
       "glyphe": "\"",
       "couleur": "vert",
       "entree": "Un anneau de verdure tourne lentement dans le vide, éclairé par un soleil artificiel.",
+      "adresses": [
+        "la station orbitale d'Aurore",
+        "la cité-jardin d'Elysium Prime"
+      ],
       "lieux": [
         "Une grande serre suspendue offre des allées d'arbres fruitiers.",
         "Un canal d'eau claire traverse une prairie aux fleurs étranges.",
@@ -209,6 +213,10 @@
       "glyphe": ",",
       "couleur": "rouge",
       "entree": "Le vaisseau se pose sur un sol de poussière ocre, sous un ciel pâle et sans nuages.",
+      "adresses": [
+        "le dôme de Port-Ocre",
+        "la piste de Sable-Rouille"
+      ],
       "lieux": [
         "Une piste balisée traverse des dunes de sable rouille.",
         "Un canyon immense s'ouvre à l'horizon, strié de couches rouges et orangées.",
@@ -240,6 +248,10 @@
       "glyphe": "`",
       "couleur": "gris",
       "entree": "Les dernières lumières familières s'éteignent. Il ne reste que le noir, immense et calme.",
+      "adresses": [
+        "l'Observatoire du Dernier Horizon",
+        "la Station Silencieuse de Tau Ceti"
+      ],
       "lieux": [
         "Le vaisseau dérive loin de tout système, sans repère visible.",
         "Une étoile solitaire brille au loin, seule dans l'obscurité.",
@@ -271,6 +283,10 @@
       "glyphe": "H",
       "couleur": "cyan",
       "entree": "Une métropole flottante se dessine, hérissée de tours et de quais illuminés.",
+      "adresses": [
+        "le spatioport de Néo-Lisbonne",
+        "le quai 9 de la Jonction Kepler"
+      ],
       "lieux": [
         "Une avenue de verre traverse des marchés bondés de voyageurs.",
         "Un quai d'amarrage s'étire sous une forêt de passerelles.",
